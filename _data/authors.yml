@@ -1,89 +1,19 @@
 # Add Authors here
-amyelliott:
-   name: Amy Elliott
-   username: amyelliott
-   site: http://amy-portfolio.com
-   avatar: amyelliott.png
-   bio: "Hi! My name is Amy, and Im a programmer based in the UK! I love playing and making video games and recently entering the games industry has only increased my interest in games development. Im a big fan of technical and creative experimentation, and I do this by participating in gamejams and small projects  in my spare time. I love learning new things, from game engines and programming all the way to maths and fun projects using an Arduino."
-   email: amy.elliott2002@yahoo.co.uk
+dylan:
+   name: Nguyen Quoc Dat
+   username: dylan
+   site: https://nguyenquocdat.info
+   avatar: dylan.png
+   bio: "Hi, I'm Nguyen Quoc Dat, a 2nd student majoring in information security at PTIT."
+   email: nqdat160602@gmail.com
    social:
       - title: "gitlab"
-        url: "https://gitlab.com/Numpadn"
+        url: "https://gitlab.com/datpc166"
       - title: "github"
-        url: "https://github.com/AmyE123"
+        url: "https://github.com/datpc166"
       - title: "linkedin"
-        url: "https://www.linkedin.com/in/amy-m-elliott/"
+        url: "https://www.linkedin.com/in/dylan1606/"
       - title: "twitter"
-        url: "https://twitter.com/AmyElliott_"
+        url: "https://twitter.com/datpc_"
       - title: "instagram"
-        url: "https://www.instagram.com/amy.m.elliott/"
-
-
-
-# Other authors...
-
-johndoe:
-   name: John Doe
-   username: johndoe
-   site: http://johndoe.com
-   avatar: johndoe.png
-   bio: "Hi I a John, a Web Developer and Designer."
-   email: mail@johndoe.com
-   social:
-      - title: "github"
-        url: "https://github.com/johndoe"
-      - title: "linkedin"
-        url: "https://www.linkedin.com/in/johndoe"
-      - title: "youtube"
-        url: "https://www.youtube.com/channel/UCSfLBFFfNU9r6ihfei6VeJw"
-      - title: "facebook"
-        url: "https://www.facebook.com/johndoe"
-      - title: "twitter"
-        url: "https://www.twitter.com/johndoe"
-      - title: "behance"
-        url: "https://behance.com/johndoe"
-      - title: "instagram"
-        url: "https://instagram.com/johndoe"
-      - title: "medium"
-        url: "https://medium.com/johndoe"
-      - title: "telegram"
-        url: "https://telegram.com/johndoe"
-      - title: "dribbble"
-        url: "https://dribbble.com/johndoe"
-      - title: "flickr"
-        url: "https://flickr.com/johndoe"
-
-xplor4r:
-   name: Sujay kundu
-   username: xplor4r
-   site: https://sujaykundu.com
-   avatar: xplor4r.png
-   bio: "Full Stack Web Developer, based in Bangalore, India"
-   email: mail@sujaykundu.com
-   social:
-      - title: "github"
-        url: "https://github.com/sujaykundu777"
-      - title: "linkedin"
-        url: "https://www.linkedin.com/in/sujaykundu"
-      - title: "youtube"
-        url: "https://www.youtube.com/channel/UCSfLBFFfNU9r6ihfei6VeJw"
-      - title: "facebook"
-        url: "https://www.facebook.com/sujay.kundu2"
-
-teamhorsehead:
-   name: Team Horsehead
-   username: teamhorsehead
-   site: https://horsehead.itch.io/
-   avatar: horsehead.png
-   bio: "Team Horsehead is a Game Development Team which I am a part of.<br/>
-		I joined these amazing guys back in 2019 for my first GameJam (Portsmouth University Gamejam 2019), and ever since then, we join to make gamejams a few times a year! These people are great friends to me.<br/>
-
-		<ul>
-		<li> <strong>Joe Shanahan</strong> - Programmer </li>
-		<li> <strong>Scott Richards</strong> - Programmer </li>
-		<li> <strong>Oliver Thurston</strong> - Artist </li>
-		<li> <strong>Louise Hunnisett</strong> - Artist </li>
-		<li> <strong>Melina Sputz</strong> - Artist </li>
-		<li> <strong>James Thurston</strong> - Audio </li>
-		</ul>"
-
+        url: "https://www.instagram.com/datpc_/"
