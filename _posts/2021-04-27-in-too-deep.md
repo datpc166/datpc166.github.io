@@ -4,7 +4,7 @@ title:  "In Too Deep"
 type: "Game Development Blog"
 color: "background-color: seagreen"
 summary: "In Too Deep is a mining tycoon designed around the theme 'Deeper and deeper' <small>(Ludum Dare 48)</small>"
-author: dylan
+author: amyelliott
 date: '2021-04-27'
 category: ['game-development', 'game-jam', 'unity']
 thumbnail: /assets/img/posts/InTooDeep/cover.png

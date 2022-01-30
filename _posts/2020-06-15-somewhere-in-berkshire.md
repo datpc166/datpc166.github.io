@@ -4,7 +4,7 @@ title:  "Somewhere In Berkshire"
 type: "Game Development Blog"
 color: "background-color: seagreen"
 summary: "Somewhere in Berkshire is an exploration game designed to fit around a few randomly selected tricky themes. <small>(Portsmouth University Game Jam 2020)</small>"
-author: dylan
+author: amyelliott
 date: '2020-06-15'
 category: ['game-development', 'game-jam', 'unity']
 thumbnail: /assets/img/posts/SomewhereInBerkshire/cover.png

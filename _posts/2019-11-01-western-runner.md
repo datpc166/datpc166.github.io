@@ -4,7 +4,7 @@ title:  "Western Runner"
 type: "Game Development Blog"
 color: "background-color: seagreen"
 summary: "Western Runner is a simple runner game inspired by Subway Surfers where you have to dodge the obstacles and collect money, designed around the theme 'Western'"
-author: dylan
+author: amyelliott
 date: '2019-11-01'
 category: ['game-development', 'solo', 'unreal-engine']
 thumbnail: /assets/img/posts/WesternRunner/cover.png

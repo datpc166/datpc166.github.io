@@ -4,7 +4,7 @@ title:  "Toy Tactics"
 type: "Game Development Blog"
 color: "background-color: seagreen"
 summary: "Toy Tactics is a tactics game where you play against artificial intelligent soliders trying to defeat your army! This was designed around the theme 'Unstable' <small>(Ludum Dare 49)</small>"
-author: dylan
+author: amyelliott
 date: '2021-10-04'
 category: ['game-development', 'game-jam', 'unity']
 thumbnail: /assets/img/posts/ToyTactics/cover.png

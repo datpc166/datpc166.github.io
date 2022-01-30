@@ -4,7 +4,7 @@ title:  "What's The Difference Between Action-Adventure & Third Person Shooters?
 type: "Misc Blog"
 color: "background-color: #003261"
 summary: "This blog will compare and define the games Resident Evil 4, (2005) and Twilight Princess, (2006), and their respective genres."
-author: dylan
+author: amyelliott
 date: '2021-05-13'
 category: ['misc', 'research']
 thumbnail: /assets/img/posts/re4vstp/cover.png

@@ -4,7 +4,7 @@ title:  "What I’ve Learnt Working On Jagex’s Unannounced MMORPG."
 type: "Personal Blog"
 color: "background-color: firebrick"
 summary: "One morning, I woke up to an email titled 'Welcome to Jagex Games Studio' - I could barely believe it!"
-author: dylan
+author: amyelliott
 date: '2021-07-17'
 category: ['personal', 'jagex', 'reflection', 'development', 'improvement']
 thumbnail: /assets/img/posts/JGXUnannouncedMmorpg/cover.png

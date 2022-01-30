@@ -4,7 +4,7 @@ title:  "I Gave a Talk In-Person For The First Time."
 type: "Personal Blog"
 color: "background-color: firebrick"
 summary: "I delivered a talk to students in my old high school, this was my first time talking in front of a large audience in person, as up to this point, a lot of the stuff I had done was online due to covid!"
-author: dylan
+author: amyelliott
 date: '2021-12-14'
 category: ['personal', 'education', 'teaching', 'reflection', 'development', 'improvement']
 thumbnail: /assets/img/posts/SchoolTalk/cover.png

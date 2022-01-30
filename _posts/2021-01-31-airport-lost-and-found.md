@@ -4,7 +4,7 @@ title:  "Airport - Lost & Found"
 type: "Game Development Blog"
 color: "background-color: seagreen"
 summary: "Airport - Lost & Found is a crazy-taxi inspired game designed around the theme 'Lost & Found' <small>(Global Gamejam 2021)</small>"
-author: dylan
+author: amyelliott
 date: '2021-01-31'
 category: ['game-development', 'game-jam', 'unity']
 thumbnail: /assets/img/posts/Airport/cover.png

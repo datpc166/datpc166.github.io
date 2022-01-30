@@ -4,7 +4,7 @@ title:  "My Time Working On Old School RuneScape's Engine Team."
 type: "Personal Blog"
 color: "background-color: firebrick"
 summary: "I was given the opportunity to work on engine programming for Old School RuneScape’s C++ Client, this helped me learn lots about how game engines work."
-author: dylan
+author: amyelliott
 date: '2021-08-17'
 category: ['personal', 'jagex', 'reflection', 'development', 'improvement']
 thumbnail: /assets/img/posts/JGXRunescape/cover.jpg

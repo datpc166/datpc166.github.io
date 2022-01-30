@@ -4,7 +4,7 @@ title:  "Poppin' Hoppin' Unlockin'"
 type: "Game Development Blog"
 color: "background-color: seagreen"
 summary: "Poppin' Hoppin' Unlockin' is a platformer game designed around the theme 'Fantasy Platformer'. <small>(TDEMO Fantasy Platformer)</small>"
-author: dylan
+author: amyelliott
 date: '2020-11-12'
 category: ['game-development', 'game-jam', 'unity']
 thumbnail: /assets/img/posts/PopHop/cover.png

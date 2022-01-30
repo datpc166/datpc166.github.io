@@ -4,7 +4,7 @@ title:  "A Year Of Technical Games Development"
 type: "Personal Blog"
 color: "background-color: firebrick"
 summary: "In this blog, I discuss my Technical Games Development module, And how it helped me learn to develop my core team working skills for use in games development."
-author: dylan
+author: amyelliott
 date: '2021-06-22'
 category: ['personal', 'reflection', 'development', 'improvement']
 thumbnail: /assets/img/posts/YearTDEMO/cover.png

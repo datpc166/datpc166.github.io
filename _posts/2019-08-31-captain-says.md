@@ -4,7 +4,7 @@ title:  "Captain Says"
 type: "Game Development Blog"
 color: "background-color: seagreen"
 summary: "Captain Says is a educational game designed around the theme 'The Game Is A Liar'. <small>(Community Game Jam)</small>"
-author: dylan
+author: amyelliott
 date: '2019-08-31'
 category: ['game-development', 'game-jam', 'unity']
 thumbnail: /assets/img/posts/CapSays/cover.png

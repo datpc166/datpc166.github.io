@@ -4,7 +4,7 @@ title:  "Boxy See, Boxy Do"
 type: "Game Development Blog"
 color: "background-color: seagreen"
 summary: "Boxy See, Boxy Do is a puzzle game designed around the theme 'Out of Control'. <small>(GMTK Game Jam 2020)</small>"
-author: dylan
+author: amyelliott
 date: '2020-07-12'
 category: ['game-development', 'game-jam', 'unity']
 thumbnail: /assets/img/posts/BoxySee/cover.png

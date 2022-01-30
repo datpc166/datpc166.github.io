@@ -4,7 +4,7 @@ title:  "Blocky Road"
 type: "Game Development Blog"
 color: "background-color: seagreen"
 summary: "Blocky Road is a puzzle game designed around the theme 'Hyper-Casual'. <small>(TDEMO Hypercasual)</small>"
-author: dylan
+author: amyelliott
 date: '2020-10-28'
 category: ['game-development', 'game-jam', 'solo', 'unity']
 thumbnail: /assets/img/posts/BlockyRoad/cover.png

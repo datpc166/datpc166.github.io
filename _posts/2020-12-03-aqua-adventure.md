@@ -4,7 +4,7 @@ title:  "Aqua Adventure"
 type: "Game Development Blog"
 color: "background-color: seagreen"
 summary: "Aqua Adventure is a shoot em' up game designed around the theme 'Starfox'. <small>(TDEMO Starfox)</small>"
-author: dylan
+author: amyelliott
 date: '2020-12-03'
 category: ['game-development', 'game-jam', 'unity']
 thumbnail: /assets/img/posts/AquaAdventure/cover.png

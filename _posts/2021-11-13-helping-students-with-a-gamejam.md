@@ -4,7 +4,7 @@ title:  "Helping Students With Programming & Problem Solving."
 type: "Personal Blog"
 color: "background-color: firebrick"
 summary: "Shortly after volunteering to mentor at an Into Games event, I had found an opportunity to help students solve any problems with programming in a Gamejam using Twine, which is a tool I’ve not used before!"
-author: dylan
+author: amyelliott
 date: '2021-11-13'
 category: ['personal', 'education', 'teaching', 'reflection', 'development', 'improvement']
 thumbnail: /assets/img/posts/SidefestMentoring/cover.png

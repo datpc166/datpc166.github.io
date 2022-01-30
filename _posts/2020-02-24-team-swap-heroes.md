@@ -4,7 +4,7 @@ title:  "Team Swap Heroes"
 type: "Game Development Blog"
 color: "background-color: seagreen"
 summary: "Team Swap Heroes is a teamwork-based game. This was designed around the theme 'Teamwork' <small>(Minijam 48)</small>"
-author: dylan
+author: amyelliott
 date: '2020-02-24'
 category: ['game-development', 'game-jam', 'unity']
 thumbnail: /assets/img/posts/TeamSwapHeroes/cover.png

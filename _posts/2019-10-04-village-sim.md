@@ -4,7 +4,7 @@ title:  "Village Simulator"
 type: "Game Development Blog"
 color: "background-color: seagreen"
 summary: "Village Simulator is a.. well you guessed it, it's a village simulator! This was designed around the theme 'Start with nothing' <small>(Ludum Dare 45)</small>"
-author: dylan
+author: amyelliott
 date: '2019-10-04'
 category: ['game-development', 'game-jam', 'unity']
 thumbnail: /assets/img/posts/VillageSim/villagesimulator.png
