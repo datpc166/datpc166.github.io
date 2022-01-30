@@ -10,11 +10,6 @@ title: home
     });
   });
 </script>
-    <!-- hero section-->
-    {%- include hero.html -%}
-    <div class="col-lg-8 offset-md-2">
-      {%- include recent_articles.html -%}
-    </div>
 
 <div class="jumbotron" style="text-align: center;">
 
@@ -68,6 +63,13 @@ title: home
     </p>
 </div>
 
+<!-- hero section-->
+{%- include hero.html -%}
+<div class="col-lg-8 offset-md-2">
+    {%- include recent_articles.html -%}
+</div>
+
+
 <div class="row" style="padding: 10px; justify-content: center">
     {% for project in site.author_project_details %} {% if project.visibility
     == true %}
@@ -103,8 +105,6 @@ title: home
     </div>
     {% endif %} {% endfor %}
 </div>
-
-<hr>
 
 <div class="card">
     {%- include contact_me_footer.html -%}
