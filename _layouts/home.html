@@ -1,0 +1,157 @@
+---
+layout: default
+---
+
+<script>
+  $(document).ready(function() {
+    $("#typewriteText").typewrite({
+      actions: [{ type: "{{site.typewrite-text}}" }]
+    });
+  });
+</script>
+<div class="jumbotron" style="text-align: center;">
+
+    <!---------------------------------------->
+    <!--MASTHEAD VIDEO ON BACKGROUND-->
+    <!---------------------------------------->
+    <video id="video-background" autoplay muted playsinline loop>
+        <source src="{{site.url}}{{site.baseurl}}/assets/img/showreel.mp4" type="video/mp4">
+        <source src="{{site.url}}{{site.baseurl}}/assets/img/showreel.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+    <script>document.getElementById('myvideo').play();</script>
+
+    <!---------------------------------------->
+    <!--TEXT AND PROFILE PICTURE-->
+    <!---------------------------------------->
+    <img class="author-profile-img" src="{{site.url}}{{site.baseurl}}/assets/img/profile.png" />
+    <p class="jumbotron-heading">Hi, I am {{site.author}}</p>
+    <!--<p class="lead" id="typewriteText"></p>-->
+    <p class="lead">I'm a Gameplay Programmer!</p>
+
+    <!---------------------------------------->
+    <!--SOCIAL MEDIA LINKS-->
+    <!---------------------------------------->
+    <p class="profile-links">
+        {% if site.twitter_username %}
+        <a class="social-link"
+           href="http://twitter.com/{{ site.twitter_username }}" target="_blank">
+            <i class="fab fa-twitter"></i>
+        </a>
+        {% endif %} {% if site.instagram_username %}
+        <a class="social-link"
+           href="http://instagram.com/{{ site.instagram_username }}" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        {% endif %} {% if site.gitlab_username %}
+        <a class="social-link"
+           href="http://gitlab.com/{{ site.gitlab_username }}" target="_blank">
+            <i class="fab fa-gitlab"></i>
+        </a>          
+        {% endif %} {% if site.github_username %}
+        <a class="social-link"
+           href="http://github.com/{{ site.github_username }}" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+        {% endif %} {% if site.linkedin_username %}
+        <a class="social-link"
+           href="http://linkedin.com/in/{{ site.linkedin_username }}" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        {% endif %}
+    </p>
+</div>
+
+<div class="row" style="padding: 10px; justify-content: center">
+    {% for project in site.author_project_details %} {% if project.visibility
+    == true %}
+    <div class="card" style="padding: 30px; justify-content: center; height: 90%; min-width: 90%">
+        <div class="row">
+            <div class="column-two" style="max-width: 50%">
+                <h4 class="experience-title" style="text-align:left; word-wrap: normal">{{ project.project_title }}</h4>
+                <h6 class="experience-info" style="text-align:left; word-wrap: normal">{{ project.project_info}}</h6>
+                <p class="experience-desc" style="text-align:left; word-wrap: normal">{{ project.project_description }}</p>
+                <p class="experience-desc" style="text-align:left; word-wrap: normal">Developed by: <a href="{{ project.team }}" style="padding: 0px" target="_blank">{{ project.dev }}</a></p>
+                <!--<p class="experience-desc" style="text-align:left;"> <a href="{{project.project_url}}">{{ project.project_url}}</a> </p>-->
+            </div>
+            <div class="column-two" style="text-align:right; max-width: 50%">
+                <p style="text-align:right; word-wrap: normal">{{ project.date }}</p>
+                <img src="{{site.url}}{{site.baseurl}}/assets/img/posts/icons/thumbnail/50pxPh/{{project.engine}}" padding:50px" />
+                <img src="{{site.url}}{{site.baseurl}}/assets/img/posts/icons/thumbnail/50pxPh/{{project.language}}" padding:50px" />
+                <a href="{{project.project_url}}" style="padding: 0px" target="_blank"><img src="{{site.url}}{{site.baseurl}}/assets/img/posts/icons/thumbnail/50pxPh/{{project.published}}" /></a>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="column-two" style="overflow: hidden; display: flex; align-items:center; justify-content:center">
+                <img src="{{site.url}}{{site.baseurl}}/assets/img/gamelib/{{project.project_thumbnail}}" style="text-align:left; padding:20px; max-width: 100%; border-radius: 40px" />
+            </div>
+            <div class="column-two" style="text-align:left; min-width: 300px">
+                <h5 class="experience-title" style="text-align:left; padding: 20px">{{ project.role }}</h5>
+                <p class="experience-desc" style="text-align:left;">{{ project.bp }}</p>
+            </div>
+        </div>
+        <div id="Blogging Website" style="text-align:right; padding: 0px; margin-bottom: 0px">
+            <p class="experience-desc" style="text-align:right; margin-bottom: 0px"> <a href="{{project.blog_url}}" target="_blank">Read More...</a> <img src="/assets/img/posts/icons/gizmos/read32.png" style="text-align:right"></p>
+        </div>
+    </div>
+    {% endif %} {% endfor %}
+</div>
+
+<hr>
+
+<div class="col-lg-8 offset-md-2">
+    <section id="recent-articles">
+    <div id="recent-articles-header">
+        <div id="recent-articles-title">
+        <h1 class="card-title">Recent Articles</h1>
+        </div>
+        <div id="recent-articles-show-all">
+        <a class="btn btn-lg btn-dark" href="/blog"> View All </a>
+        </div>
+    </div>
+    <br />
+
+    <ul>
+        {% for post in site.posts limit:5 %}
+        <li class="article-card">
+        <a href="{{post.url}}" class="article-card-link">
+            <div id="article-container">
+            <div id="article-img">
+                {% if post.author %}
+                {% assign author = post.author %}
+                {% if author %}
+                    {% assign author_data = site.data.authors[author] %}
+                    <img
+                    src="{{site.url}}{{site.baseurl}}/assets/img/authors/{{author_data.avatar}}"
+                    width="50px"
+                    height="50px"
+                />
+                {% endif %}
+                {% endif %}
+
+            </div>
+            <div id="article-link">
+                <p class="recent-article-link">{{post.title}} <span style="color: #ccc; font-size: 15px;"> - <i><time datetime="{{ post.date }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></i></span></p>
+                </div>
+                <div id="article-alert">
+                {% for cat in post.category limit:1 %}
+                <button class="btn btn-sm btn-dark">{{cat}}</button>
+                {% endfor %}
+                </div>
+            </div>
+        </a>
+        </li>
+        {% endfor %}
+    </ul>
+    </section>
+</div>
+
+<div class="card">
+    {%- include contact_me_footer.html -%}
+</div>
+
+    <!---------------------------------------->
+    <!--WebGL Games On Web Page-->
+    <!---------------------------------------->
+    <!--<iframe src="{{site.url}}{{site.baseurl}}/assets/WebGL/PortsmouthGJ2020/index.html" style="border:0px #000000 none;" name="Game name" scrolling="no" frameborder="1" marginheight="px" marginwidth="320px" height="320px" width="480px"></iframe>-->

@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="topNav">
+    <button class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+        <span class="icono-hamburger" id="navbar-hamburger"> </span>
+    </button>
+    <a class="navbar-brand" href="{{site.url}}{{site.baseurl}}">{{site.title}}</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            {% for i in site.urls %}
+            <li-n class="nav-item">
+                <a class="nav-link" href="{{ site.url}}{{site.baseurl}}{{ i.url }}" style="min-width: max-content">{{ i.text }}</a>
+            </li-n>
+            {% endfor %}
+        </ul>
+    </div>
+    <a href="http://www.amy-portfolio.com" target="_blank" style="padding:0px !important"><i class="fa fa-home"></i></a>
+</nav>

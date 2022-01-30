@@ -1,0 +1,61 @@
+<article class="card" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="card-header">
+    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+    <p class="post-meta">{{ page.summary }}</p>
+    <p class="post-summary">
+      Posted by : {% if page.author %}
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name"><a href="{{site.url}}{{site.baseurl}}/blog/authors/{{page.author}}">{{ page.author }}</a></span> </span
+      >{% endif %} at
+      <time datetime="{{ page.date }}" itemprop="datePublished"
+        >{{ page.date | date: "%b %-d, %Y" }}</time
+      >
+    </p>
+    <span
+      class="disqus-comment-count"
+      data-disqus-identifier="{{ page.url }}"
+    ></span>
+    <div class="post-categories">
+      {% if post %} {% assign categories = post.categories %} {% else %} {%
+      assign categories = page.categories %} {% endif %} Category : {% for
+      category in categories %}
+      <a href="{{site.baseurl}}/blog/categories/{{category|slugize}}"
+        >{{category}}</a
+      >
+      {% unless forloop.last %}&nbsp;{% endunless %} {% endfor %}
+    </div>
+  </div>
+
+  <div class="card-body" itemprop="articleBody">
+    <!--<img
+      class="card-img-top"
+      src="{{site.url}}{{site.baseurl}}{{ page.thumbnail }}"
+      alt="{{ post.title }}"
+    />
+    <br />
+    <br />-->
+    {{ content }}
+    <br />
+    <!-- Author box -->
+    {% assign author = site.data.authors[page.author] %}
+      {% if author %}
+      {% include author.html %}
+    {% endif %}
+  </div>
+  {%- if site.hyvor_talk_website_id -%}
+  <div class="comments">
+    {%- include hyvor_comments.html -%}
+   </div>
+    {%- endif -%}
+  <!-- Incomment incase you want to use Disqus
+      <div id="disqus_thread"></div>
+   -->
+
+    <!-- begin wwww.htmlcommentbox.com -->
+ <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...</div>
+ <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+ <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24.Re8qDUVFFOP1uYbkFzGm."+"&opts=16798&num=10&ts=1627120083655");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+<!-- end www.htmlcommentbox.com -->
+
+</article>
+{%- include contact_me_footer.html -%}

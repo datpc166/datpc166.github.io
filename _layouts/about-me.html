@@ -1,0 +1,357 @@
+---
+layout: default
+---
+
+<div class="row ">
+    <div class="col-lg-4 offset-md-1">
+        <div class="card" id="profile-card">
+            <a href="/">
+                <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="profile-img" />
+            </a>
+            <h1 class="profile-name">{{ site.title }}</h1>
+            <p class="profile-bio">{{ site.subtitle }}</p>
+
+            <p class="profile-links">
+                {% if site.twitter_username %}
+                <a class="social-link"
+                   href="http://twitter.com/{{ site.twitter_username }}" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                {% endif %} {% if site.instagram_username %}
+                <a class="social-link"
+                   href="http://instagram.com/{{ site.instagram_username }}" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                {% endif %} {% if site.gitlab_username %}
+                <a class="social-link"
+                   href="http://gitlab.com/{{ site.gitlab_username }}" target="_blank">
+                    <i class="fab fa-gitlab"></i>
+                </a>                 
+                {% endif %} {% if site.medium_username %}
+                <a class="social-link"
+                   href="http://medium.com/@{{ site.medium_username }}" target="_blank">
+                    <i class="fab fa-medium-m"></i>
+                </a>
+                {% endif %} {% if site.github_username %}
+                <a class="social-link"
+                   href="http://github.com/{{ site.github_username }}" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                {% endif %} {% if site.behance_username %}
+                <a class="social-link"
+                   href="http://behance.net/{{ site.behance_username }}" target="_blank">
+                    <i class="fab fa-behance"></i>
+                </a>
+                {% endif %} {% if site.linkedin_username %}
+                <a class="social-link"
+                   href="http://linkedin.com/in/{{ site.linkedin_username }}" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                {% endif %} {% if site.telegram_username %}
+                <a class="social-link" href="http://t.me/{{ site.telegram_username }}" target="_blank">
+                    <i class="fab fa-telegram-plane"></i>
+                </a>
+                {% endif %} {% if site.dribbble_username %}
+                <a class="social-link"
+                   href="https://dribbble.com/{{ site.dribbble_username }}" target="_blank">
+                    <i class="fab fa-dribbble"></i>
+                </a>
+                {% endif %} {% if site.flickr_username %}
+                <a class="social-link"
+                   href="https://www.flickr.com/photos/{{ site.flickr_username }}" target="_blank">
+                    <i class="fab fa-flickr"></i>
+                </a>
+                {% endif %}
+            </p>
+
+            {% if site.author_location %}
+            <h6><i class="fas fa-map-marker-alt"></i> {{ site.author_location }}</h6>
+            {% endif %} {% if site.author_email %}
+            <h6><i class="fas fa-envelope"></i> {{ site.author_email }}</h6>
+            {% endif %} {% if site.author_website_url %}
+            <h6><i class="fas fa-link"></i> {{ site.author_website_url }}</h6>
+            {% endif %}
+        </div>
+
+        <div id="author_skills" class="card">
+            <h1 class="card-title">Skills</h1>
+            <div class="row">
+                <div class="column-two" style="max-width: 100%">
+                    <div class="wrapper center-block">
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading active" role="tab" id="headingOne">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseLang" aria-expanded="true" aria-controls="collapseLang" title="Click to expand/minimize">
+                                            <h4 style="word-wrap: normal">Languages</h4>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseLang" class="panel-collapse collapse in collapse show" role="tabpanel" aria-labelledby="headingOne">
+                                    <div class="panel-body">
+                                        <div class="card">
+                                            <div class="row">
+                                                <div class="column-two">
+                                                    <img src="/assets/img/posts/icons/thumbnail/64pxSkills/cpp.png"><p>C++</p>
+                                                </div>
+                                                <div class="column-two">
+                                                    <img src="/assets/img/posts/icons/thumbnail/64pxSkills/cs.png"><p>C#</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-two" style="max-width: 100%">
+                    <div class="wrapper center-block">
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading active" role="tab" id="headingOne">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEngine" aria-expanded="true" aria-controls="collapseEngine" title="Click to expand/minimize">
+                                            <h4 style="word-wrap: normal">Engines</h4>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseEngine" class="panel-collapse collapse in collapse show" role="tabpanel" aria-labelledby="headingOne">
+                                    <div class="panel-body">
+                                        <div class="card">
+                                            <div class="row">
+                                                <div class="column-two">
+                                                    <img src="/assets/img/posts/icons/thumbnail/64pxSkills/unity.png"><p>Unity</p>
+                                                </div>
+                                                <div class="column-two">
+                                                    <img src="/assets/img/posts/icons/thumbnail/64pxSkills/unrealengine.png"><p>UE4</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br />
+            <div class="wrapper center-block">
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading active" role="tab" id="headingOne">
+                            <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseProj" aria-expanded="false" aria-controls="collapseProj" title="Click to expand/minimize">
+                                    <h4 style="word-wrap: normal">Project Management</h4>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseProj" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="panel-body">
+                                <div class="card">
+                                    <div class="row">
+                                        <div class="column-three">
+                                            <img src="/assets/img/posts/icons/thumbnail/64pxSkills/perforce.png"><p>Perforce</p>
+                                        </div>
+                                        <div class="column-three">
+                                            <img src="/assets/img/posts/icons/thumbnail/64pxSkills/git.png"><p>Git</p>
+                                        </div>
+                                        <div class="column-three">
+                                            <img src="/assets/img/posts/icons/thumbnail/64pxSkills/helixswarm.png"><p>Helix Swarm</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="column-two">
+                                            <img src="/assets/img/posts/icons/thumbnail/64pxSkills/atlassian.png"><p>Atlassian Tools</p>
+                                        </div>
+                                        <div class="column-two">
+                                            <img src="/assets/img/posts/icons/thumbnail/64pxSkills/basecamp.png"><p>Basecamp</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="wrapper center-block">
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading active" role="tab" id="headingOne">
+                            <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSoftware" aria-expanded="false" aria-controls="collapseSoftware" title="Click to expand/minimize">
+                                    <h4 style="word-wrap: normal">Software</h4>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseSoftware" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="panel-body">
+                                <div class="card">
+                                    <h5 align="left" style="padding-bottom: 20px">Integrated Development Environments:</h5>
+                                    <div class="row">
+                                        <div class="column-two">
+                                            <img src="/assets/img/posts/icons/thumbnail/64pxSkills/visualstudio.png"><p>Visual Studio</p>
+                                        </div>
+                                        <div class="column-two">
+                                            <img src="/assets/img/posts/icons/thumbnail/64pxSkills/visualstudiocode.png"><p>Visual Studio Code</p>
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <h5 align="left" style="padding-bottom: 20px">Art/Graphics Software:</h5>
+                                    <div class="row">
+                                        <div class="column-three">
+                                            <img src="/assets/img/posts/icons/thumbnail/64pxSkills/photoshop.png"><p>Photoshop</p>
+                                        </div>
+                                        <div class="column-three">
+                                            <img src="/assets/img/posts/icons/thumbnail/64pxSkills/procreate.png"><p>Procreate</p>
+                                        </div>
+                                        <div class="column-three">
+                                            <img src="/assets/img/posts/icons/thumbnail/64pxSkills/pts.png"><p>Paint Tool Sai</p>
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <h5 align="left" style="padding-bottom: 20px">Video Editing Software:</h5>
+                                    <div class="row">
+                                        <div class="column-two">
+                                            <img src="/assets/img/posts/icons/thumbnail/64pxSkills/premiere.png"><p>Adobe Premiere Pro</p>
+                                        </div>
+                                        <div class="column-two">
+                                            <img src="/assets/img/posts/icons/thumbnail/64pxSkills/vegas.png"><p>Sony Vegas Pro</p>
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <h5 align="left" style="padding-bottom: 20px">3D Modelling Software:</h5>
+                                    <div class="row">
+                                        <div class="column-three">
+                                            <img src="/assets/img/posts/icons/thumbnail/64pxSkills/maya.png"><p>Maya</p>
+                                        </div>
+                                        <div class="column-three">
+                                            <img src="/assets/img/posts/icons/thumbnail/64pxSkills/3ds.png"><p>3DS Max</p>
+                                        </div>
+                                        <div class="column-three">
+                                            <img src="/assets/img/posts/icons/thumbnail/64pxSkills/blender.png"><p>Blender</p>
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <h5 align="left" style="padding-bottom: 20px">Music Software:</h5>
+                                    <div class="row">
+                                        <div class="column-two">
+                                            <img src="/assets/img/posts/icons/thumbnail/64pxSkills/fmod.png"><p>FMOD Studio</p>
+                                        </div>
+                                        <div class="column-two">
+                                            <img src="/assets/img/posts/icons/thumbnail/64pxSkills/mixcraft.png"><p>Mixcraft</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--This is the Gamejam Card, which includes all the Gamejams I've participated in-->
+        <div class="card">
+            <h1 style="word-wrap: normal">Gamejams</h1>
+
+            {%- include author_gamejams.html -%}
+        </div>
+    </div>
+    <div class="col-lg-7">
+        {% if site.author_bio %}
+        <div class="card">
+            <h1 class="card-title" style="word-wrap: normal">About</h1>
+            <p>{{ site.author_bio }}</p>
+        </div>
+        <br />
+
+        <h3 style="padding: 5px; word-wrap: normal; margin-left: 20px; margin-right: 20px;">Project Highlights</h3>
+
+        {% for project in site.author_project_details %} {% if project.visibility
+        == true %}
+        <div class="card">
+            <div class="row">
+                <div class="column-two" style="max-width: 50%">
+                    <h4 class="experience-title" style="text-align:left; word-wrap: normal">{{ project.project_title }}</h4>
+                    <h6 class="experience-info" style="text-align:left; word-wrap: normal">{{ project.project_info}}</h6>
+                    <p class="experience-desc" style="text-align:left; word-wrap: normal">{{ project.project_description }}</p>
+                    <p class="experience-desc" style="text-align:left; word-wrap: normal">Developed by: <a href="{{ project.team }}" style="padding: 0px" target="_blank">{{ project.dev }}</a></p>
+                    <!--<p class="experience-desc" style="text-align:left;"> <a href="{{project.project_url}}">{{ project.project_url}}</a> </p>-->
+                </div>
+                <div class="column-two" style="text-align:right; max-width: 50%">
+                    <p style="text-align:right; word-wrap: normal">{{ project.date }}</p>
+                    <img src="{{site.url}}{{site.baseurl}}/assets/img/posts/icons/thumbnail/50pxPh/{{project.engine}}" padding:50px" />
+                    <img src="{{site.url}}{{site.baseurl}}/assets/img/posts/icons/thumbnail/50pxPh/{{project.language}}" padding:50px" />
+                    <a href="{{project.project_url}}" style="padding: 0px" target="_blank"><img src="{{site.url}}{{site.baseurl}}/assets/img/posts/icons/thumbnail/50pxPh/{{project.published}}" /></a>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="column-two" style="overflow: hidden; display: flex; align-items:center; justify-content:center">
+                    <img src="{{site.url}}{{site.baseurl}}/assets/img/gamelib/{{project.project_thumbnail}}" style="text-align:left; padding:20px; max-width: 90%; border-radius: 40px" />
+                </div>
+                <div class="column-two" style="text-align:left; min-width: 300px">
+                    <h5 class="experience-title" style="text-align:left; padding: 20px; word-wrap: normal">{{ project.role }}</h5>
+                    <p class="experience-desc" style="text-align:left; word-wrap: normal">{{ project.bp }}</p>
+                </div>
+            </div>
+            <div id="Blogging Website" style="text-align:right; padding: 0px; margin-bottom: 0px">
+                <p class="experience-desc" style="text-align:right; margin-bottom: 0px"> <a href="{{project.blog_url}}" target="_blank">Read More...</a> <img src="/assets/img/posts/icons/gizmos/read32.png" style="text-align:right"></p>
+            </div>
+
+        </div>
+        <hr>
+        {% endif %} {% endfor %}
+
+        {% endif %} {% if site.show_author_work_experiences == true %}
+        <div class="card">
+            <h1 class="card-title">Work Experience</h1>
+            <br />
+            {% for exp in site.author_work_experiences %} {% if exp.visibility == true
+            %}
+            <div class="row">
+                <div class="col-md-2" style="margin-left: 50px; max-width: 90%">
+                    <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}"
+                         class="company-logo" />
+                </div>
+                <div class="col-md-6">
+                    <h4 class="experience-title">{{ exp.designation }}</h4>
+                    <h6 class="experience-info">{{ exp.company_name}} </h6>
+                    <small class="experience-info">{{ exp.work_duration}}</small>
+                    <p class="experience-desc">{{ exp.description }}</p>
+
+                    <!--<p><a href="{{exp.company_url}}" style="padding-left:0px">{{ exp.company_url}}</a></p>-->
+                </div>
+            </div>
+            <br />
+            {% endif %} {% endfor %}
+        </div>
+        {% endif %} {% if site.show_author_education_details == true %}
+        <div class="card">
+            <h1 class="card-title">Education</h1>
+            <br />
+            {% for detail in site.author_education_details %} {% if detail.visibility
+            == true %}
+            <div class="row">
+                <div class="col-md-2" style="margin-left: 50px; max-width: 90%">
+                    <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo}}"
+                         class="company-logo" />
+                </div>
+                <div class="col-md-6">
+                    <h4 class="experience-title">{{detail.college_degree }}</h4>
+                    <h6 class="experience-info">{{detail.college_name}} </h6>
+                    <small class="experience-info">{{ detail.study_duration}}</small>
+                    <p class="experience-desc">{{detail.description}}</p>
+
+                    <!--<p><a href="{{detail.college_url}}" style="padding-left:0px">{{ detail.college_url}}</a></p>-->
+                </div>
+            </div>
+            <br />
+            {% endif %} {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+    {%- include contact_me_footer.html -%}
+</div>

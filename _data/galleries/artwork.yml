@@ -1,0 +1,24 @@
+picture_path: artwork
+preview:
+  filename: 1
+  original: 1.png
+  sizes:
+  - 1.png
+  #thumbnail: 1-thumbnail.jpg
+  thumbnail: 1.png
+pictures:
+- filename: 1
+  original: 1.png
+  sizes:
+  - 1.png
+  thumbnail: 1.png
+- filename: 2
+  original: 2.png
+  sizes:
+  - 2.png
+  thumbnail: 2.png
+- filename: 3
+  original: 3.png
+  sizes:
+  - 3.png
+  thumbnail: 3.png
