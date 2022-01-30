@@ -1,12 +1,12 @@
 # Add Authors here
 dylan:
-   name: Nguyen Quoc Dat
-   username: dylan
-   site: https://nguyenquocdat.info
-   avatar: dylan.png
-   bio: "Hi, I'm Nguyen Quoc Dat, a 2nd student majoring in information security at PTIT."
-   email: nqdat160602@gmail.com
-   social:
+  name: Nguyen Quoc Dat
+  username: dylan
+  bio: "Hi I am Dat, you can also call me Dylan. I'm a 2nd year student majoring in information security."
+  site: https://nguyenquocdat.info
+  avatar: dylan.png
+  email: nqdat160602@gmail.com
+  social:
       - title: "gitlab"
         url: "https://gitlab.com/datpc166"
       - title: "github"
@@ -17,3 +17,4 @@ dylan:
         url: "https://twitter.com/datpc_"
       - title: "instagram"
         url: "https://www.instagram.com/datpc_/"
+
