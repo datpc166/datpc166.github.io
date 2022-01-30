@@ -5,4 +5,19 @@
 
 @import "devlopr";
 
-/* custom css goes below */
+// back to top
+.back-to-top {
+	display: block;
+	font-size: 2em;
+	position: fixed;
+	bottom: 2em;
+	right: 2.95em;
+	font-weight: 900;
+	font-family: "Font Awesome 5 Free";
+}
+
+.back-to-top:after {
+	padding: 0.2em;
+	content: "\f062";
+}
+
