@@ -4,7 +4,7 @@ title:  "I Learnt About The Different Pathfinding Algorithms & Made A Tool In C+
 type: "Study Blog"
 color: "background-color: darkslateblue"
 summary: "Pathfinding algorithms have always been something which interests me, and so I decided to make myself a pathfinding tool!"
-author: amyelliott
+author: dylan
 date: '2022-01-10'
 category: ['study', 'research', 'development', 'improvement']
 thumbnail: /assets/img/posts/TOGA/cover.png

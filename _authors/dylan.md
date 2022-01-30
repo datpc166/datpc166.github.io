@@ -6,8 +6,10 @@ site: https://nguyenquocdat.info
 avatar: dylan.png
 email: nqdat160602@gmail.com
 social:
+    - title: "gitlab"
+      url: "https://gitlab.com/datpc166"
     - title: "github"
-      url: "https://github.com/datptit16"
+      url: "https://github.com/datpc166"
     - title: "linkedin"
       url: "https://www.linkedin.com/in/dylan1606"
     - title: "youtube"
@@ -15,11 +17,11 @@ social:
     - title: "facebook"
       url: "https://www.facebook.com/quocdat1606"
     - title: "twitter"
-      url: "https://www.twitter.com/quocdat1606"
+      url: "https://www.twitter.com/datpc_"
     # - title: "behance"
     #   url: "https://behance.com/johndoe"
     - title: "instagram"
-      url: "https://instagram.com/quocdat1606"
+      url: "https://instagram.com/datpc_"
     - title: "medium"
       url: "https://medium.com/nqdat160602"
     - title: "telegram"

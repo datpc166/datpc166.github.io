@@ -150,7 +150,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 2.3.5)
-  jekyll (~> 4.1, >= 4.1.1)
+  jekyll (~> 4.2, >= 4.1.1)
   jekyll-admin (~> 0.11.0)
   jekyll-feed (~> 0.13.0)
   jekyll-gist (~> 1.5.0)

@@ -17,7 +17,7 @@ html[data-theme="dark"] {
     --main-background-color: rgb(28, 28, 30);
     --main-text-color: rgb(139, 139, 139);
     --medium-text-color: hsl(0, 0%, 70%);
-    --underline-color: hsl(0, 0%, 50%);
+    --underline-color: hsl(0, 0%, 98%);
     --social-link-color: #ffffff;
     --card-background-color: rgb(32, 32, 34);
     --newsletter-background-color: #222324;
@@ -26,22 +26,21 @@ html[data-theme="dark"] {
 
 html,
 html[data-theme="light"] {
-    --bold-color: rgb(0, 0, 0);
-    --box-background-color: rgb(249, 249, 250);
-    --highlight-color: hsl(0, 0%, 80%);
-    --light-border-color: rgb(230, 230, 230);
-    --light-text-color: rgb(72, 72, 74);
-    --link-color: rgb(0, 112, 201);
-    --link-color-visited: hsl(250, 100%, 37%);
-    --main-background-color: rgb(255, 255, 255);
-    --main-text-color: rgb(51, 51, 51);
-    --medium-text-color: hsl(0, 40%, 2%);
-    --sidebar-color: hsl(0, 0%, 90%);
-    --underline-color: hsl(0, 0%, 60%);
-    --social-link-color: #262222;
-    --card-background-color: rgb(250, 250, 250);
-    --newsletter-background-color: #00000008;
-    --button-background-color: #fff;
+    --bold-color: rgb(188, 188, 188);
+    --box-background-color: hsl(0, 0%, 20%);
+    --highlight-color: hsl(0, 0%, 60%);
+    --light-border-color: hsl(0, 0%, 30%);
+    --light-text-color: rgb(199, 199, 204);
+    --link-color: #f69801;
+    --link-color-visited: hsl(250, 100%, 60%);
+    --main-background-color: rgb(28, 28, 30);
+    --main-text-color: rgb(139, 139, 139);
+    --medium-text-color: hsl(0, 0%, 70%);
+    --underline-color: hsl(0, 0%, 98%);
+    --social-link-color: #ffffff;
+    --card-background-color: rgb(32, 32, 34);
+    --newsletter-background-color: #222324;
+    --button-background-color: #111;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -58,10 +57,10 @@ html[data-theme="light"] {
         --search-color: #FF7901;
         --nav-link-color: rgba(255, 255, 255, .5);
         --link-color-visited: hsl(250, 100%, 60%);
-        --main-background-color: rgb(28, 28, 30);
+        --main-background-color: rgb(28 28 30);
         --main-text-color: rgb(139, 139, 139);
         --medium-text-color: hsl(0, 0%, 70%);
-        --underline-color: hsl(0, 0%, 50%);
+        --underline-color: hsl(0, 0%, 98%);
         --social-link-color: #ffffff;
         --card-background-color: rgb(32, 32, 34);
         --newsletter-background-color: #222324;
@@ -70,24 +69,24 @@ html[data-theme="light"] {
 
     /* Light Mode */
     html[data-theme="light"] {
-        --bold-color: rgb(0, 0, 0);
-        --box-background-color: rgb(249, 249, 250);
-        --highlight-color: hsl(0, 0%, 80%);
-        --light-border-color: rgb(230, 230, 230);
-        --light-text-color: rgb(72, 72, 74);
-        --link-color: #ca6521;
-        --nav-color: #ffffff;
-        --nav-link-color: #111111;
-        --search-color: #ababab;
-        --link-color-visited: hsl(250, 100%, 37%);
-        --main-background-color: rgb(255, 255, 255);
-        --main-text-color: rgb(51, 51, 51);
-        --medium-text-color: hsl(0, 0%, 20%);
-        --sidebar-color: hsl(0, 0%, 90%);
-        --underline-color: hsl(0, 0%, 60%);
-        --social-link-color: #262222;
-        --card-background-color: rgb(250, 250, 250);
-        --button-background-color: #fff;
+        --bold-color: rgb(188, 188, 188);
+        --box-background-color: hsl(0, 0%, 20%);
+        --highlight-color: hsl(0, 0%, 60%);
+        --light-border-color: hsl(0, 0%, 30%);
+        --light-text-color: rgb(199, 199, 204);
+        --link-color: #f69801;
+        --nav-color: #131313;
+        --search-color: #FF7901;
+        --nav-link-color: rgba(255, 255, 255, .5);
+        --link-color-visited: hsl(250, 100%, 60%);
+        --main-background-color: rgb(28, 28, 30);
+        --main-text-color: rgb(139, 139, 139);
+        --medium-text-color: hsl(0, 0%, 70%);
+        --underline-color: hsl(0, 0%, 98%);
+        --social-link-color: #ffffff;
+        --card-background-color: rgb(32, 32, 34);
+        --newsletter-background-color: #222324;
+        --button-background-color: #111;
     }
 }
 
@@ -98,6 +97,8 @@ html[data-theme="light"] {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     scroll-behavior: smooth;
+    position: relative;
+    overflow-x: hidden;
 }
 
 * {
@@ -107,23 +108,12 @@ html[data-theme="light"] {
 
 ol, ul {
     margin-left: 30px !important;
-    // margin-top: 10px; //*
+    margin-top: 10px;
 }
 
 /* Progress bar */
-.progressline .bar {
+.my-class .bar {
     background: #f69801;
-}
-
-/* On scroll progress bar */
-#progress-bar {
-    background: linear-gradient(to right, #f69801 var(--progress), transparent 0);
-    height: 5px;
-    position: fixed;
-    width: 100%;
-    overflow: hidden;
-    z-index: 1;
-    margin-top: 25px;
 }
 
 body {
@@ -136,7 +126,7 @@ body {
     hanging-punctuation: first last;
     height: 100%;
     line-height: 1.35em;
-    margin: 0; //*
+    margin: 40;
     text-rendering: optimizeLegibility;
     padding-top:33px;
     overflow-x: hidden;
@@ -156,18 +146,14 @@ body {
 
 .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto 
 {
-    padding-left: 5px; //*
-    // padding: 0px !important; //*
+    //padding-left: 5px;
+    padding: 0px !important;
 }
 
 pre {
     display: block;
     font-size: 87.5%;
     color: #d4d4d4 !important;
-}
-
-.m10{
-    margin:35px;
 }
 
 blockquote {
@@ -205,7 +191,6 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--bold-color) !important;
   line-height: 1.1;
 }
-
 
 //The colour for the horizontal rule.
 hr {
@@ -586,16 +571,16 @@ header {
     transition: all 0.4s ease-in-out;
     transform: translate(0px, -100%) scale(0, 0);
     -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
 
     -webkit-transform: translate(0px, -100%) scale(0, 0);
-    -moz-transform: translate(0px, -100%) scale(0, 0);
-    -o-transform: translate(0px, -100%) scale(0, 0);
-    -ms-transform: translate(0px, -100%) scale(0, 0);
-    transform: translate(0px, -100%) scale(0, 0);
+	-moz-transform: translate(0px, -100%) scale(0, 0);
+	-o-transform: translate(0px, -100%) scale(0, 0);
+	-ms-transform: translate(0px, -100%) scale(0, 0);
+	transform: translate(0px, -100%) scale(0, 0);
 
     opacity: 0;
 
@@ -866,7 +851,7 @@ header {
 .lead {
     font-size: 1.30rem !important;
     font-weight: 600;
-    color: #fff !important;
+    color: #111 !important;
 }
 
 .fa {
