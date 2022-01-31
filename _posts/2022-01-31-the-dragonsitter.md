@@ -54,7 +54,7 @@ usemathjax: true
 <!--- ------------------------------------ -->
 <!--- Embed or Youtube Footage of the game -->
 <!--- ------------------------------------ -->
-<div style="text-align: center;"><iframe frameborder="0" src="https://itch.io/embed-upload/2159156?color=333333" allowfullscreen="" width="980" height="688"><a href="https://horsehead.itch.io/keep-it-alive">Play The Dragonsitter on itch.io</a></iframe></div>
+<div style="text-align: center;"><iframe frameborder="0" src="https://itch.io/embed-upload/2159156?color=333333" allowfullscreen="" width="100%" height="688"><a href="https://horsehead.itch.io/keep-it-alive">Play The Dragonsitter on itch.io</a></iframe></div>
 
 <hr>
 <!--- ------------------------------------ -->

@@ -54,7 +54,7 @@ usemathjax: true
 <!--- ------------------------------------ -->
 <!--- Embed or Youtube Footage of the game -->
 <!--- ------------------------------------ -->
-<div style="text-align: center;"><iframe frameborder="0" src="https://itch.io/embed-upload/1501772?color=333333" allowfullscreen="" width="1044" height="664"><a href="https://horsehead.itch.io/gamejam-2019">Play Welcome to Yelapa on itch.io</a></iframe> </div>
+<div style="text-align: center;"><iframe frameborder="0" src="https://itch.io/embed-upload/1501772?color=333333" allowfullscreen="" width="100%" height="664"><a href="https://horsehead.itch.io/gamejam-2019">Play Welcome to Yelapa on itch.io</a></iframe> </div>
 
 <hr>
 <!--- ------------------------------------ -->

@@ -11,6 +11,7 @@ thumbnail: /assets/img/posts/AquaAdventure/cover.png
 keywords: shoot, gamejam, retro, action
 permalink: /blog/aqua-adventure/
 usemathjax: true
+published: false
 ---
 
 <hr>

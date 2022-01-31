@@ -54,7 +54,7 @@ usemathjax: true
 <!--- ------------------------------------ -->
 <!--- Embed or Youtube Footage of the game -->
 <!--- ------------------------------------ -->
-<div style="text-align: center;"><iframe frameborder="0" src="https://itch.io/embed-upload/2958857?color=333333" allowfullscreen="" width="980" height="688"><a href="https://amy-elliott.itch.io/poppin-hoppin-unlockin">Play Poppin' Hoppin' Unlockin' on itch.io</a></iframe></div>
+<div style="text-align: center;"><iframe frameborder="0" src="https://itch.io/embed-upload/2958857?color=333333" allowfullscreen="" width="100%" height="688"><a href="https://amy-elliott.itch.io/poppin-hoppin-unlockin">Play Poppin' Hoppin' Unlockin' on itch.io</a></iframe></div>
 
 <!--- ------------------------------------------------------- -->
 <!--- Development overviews for the game, to give an insight. -->

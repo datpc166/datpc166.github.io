@@ -54,7 +54,7 @@ usemathjax: true
 <!--- ------------------------------------ -->
 <!--- Embed or Youtube Footage of the game -->
 <!--- ------------------------------------ -->
-<div style="text-align: center;"><iframe frameborder="0" src="https://itch.io/embed-upload/2892379?color=333333" allowfullscreen="" width="1000" height="700"><a href="https://amy-elliott.itch.io/blockyroads">Play Blocky Road on itch.io</a></iframe></div>
+<div style="text-align: center;"><iframe frameborder="0" src="https://itch.io/embed-upload/2892379?color=333333" allowfullscreen="" width="100%" height="700"><a href="https://amy-elliott.itch.io/blockyroads">Play Blocky Road on itch.io</a></iframe></div>
 
 <hr>
 <!--- ------------------------------------ -->

@@ -100,27 +100,26 @@ author_project_details:
               #           <li>Worked with different diciplines on the development team</li>
               #        </ul>
               #   visibility: true   
-              # - project_thumbnail: blocky.png
-              #   project_title: Blocky Road
-              #   project_description: A hyper-casual puzzle game, made in 15 hours.
-              #   project_url: https://amy-elliott.itch.io/blockyroads
-              #   blog_url: /blog/blocky-road/
-              #   date: 28th October, 2020
-              #   engine: unity.png
-              #   language: cs.png
-              #   published: itch.png
-              #   role: Solo Project
-              #   team: http://gamedev.amy-portfolio.com/blog/authors/amyelliott
-              #   dev: Amy Elliott
-              #   bp: <ul> 
-              #           <li>Programmed a two-way puzzle system:</li-ph>
-              #               <ul>
-              #                   <li>Made sure there were different challenges on each side.</li>
-              #                   <li>The puzzles can't be solved without the help from the opposite side.</li>
-              #               </ul>
-              #           <li>Inspired by mobile games like Crossy Road and Monument Valley</li>
-              #        </ul>
-              #   visibility: true
+              - project_thumbnail: blocky.png
+                project_title: Blocky Road
+                project_description: A hyper-casual puzzle game, made in 15 hours.
+                project_url: https://amy-elliott.itch.io/blockyroads
+                blog_url: /blog/blocky-road/
+                date: 31st January, 2022
+                engine: unity.png
+                language: cs.png
+                published: itch.png
+                role: Solo Project
+                dev: Amy Elliott
+                bp: <ul> 
+                        <li>Programmed a two-way puzzle system:</li-ph>
+                            <ul>
+                                <li>Made sure there were different challenges on each side.</li>
+                                <li>The puzzles can't be solved without the help from the opposite side.</li>
+                            </ul>
+                        <li>Inspired by mobile games like Crossy Road and Monument Valley</li>
+                     </ul>
+                visibility: true
               # - project_thumbnail: subsim.png
               #   project_title: Planesman Trainer
               #   project_description: A submarine simulator game which was made for the Royal Navy's recruitment events
@@ -142,27 +141,27 @@ author_project_details:
               #           <li>Worked on finding assets and royalty-free materials to use for the environment</li>
               #        </ul>
               #   visibility: true
-              # - project_thumbnail: tsh.png
-              #   project_title: Team Swap Heroes
-              #   project_description: A teamwork-based puzzle game made for Minijam 48.
-              #   project_url: https://horsehead.itch.io/team-swap-heroes 
-              #   blog_url: https://amy-portfolio.com/team-swap-heroes
-              #   date: 24th February, 2020
-              #   engine: unity.png
-              #   language: cs.png
-              #   published: itch.png
-              #   role: Programmer & Designer
-              #   team: http://gamedev.amy-portfolio.com/blog/authors/teamhorsehead#/
-              #   dev: Team Horsehead
-              #   bp: <ul> 
-              #           <li>In charge of the main concepting and level designs:</li>
-              #               <ul>
-              #                   <li>Worked on design, planning, implementing and testing a vast majority of the levels</li>
-              #                   <li>Made the concept designs for the main character models, enemies and environment.</li>
-              #               </ul>
-              #           <li>Programmed the obstacle mechanics for each level and helped out with the player mechanics</li>
-              #        </ul>
-              #   visibility: false
+              - project_thumbnail: tsh.png
+                project_title: Team Swap Heroes
+                project_description: A teamwork-based puzzle game made for Minijam 48.
+                project_url: https://horsehead.itch.io/team-swap-heroes 
+                blog_url: https://amy-portfolio.com/team-swap-heroes
+                date: 31st January, 2022
+                engine: unity.png
+                language: cs.png
+                published: itch.png
+                role: Programmer & Designer
+                # team: http://gamedev.amy-portfolio.com/blog/authors/teamhorsehead#/
+                dev: Team Horsehead
+                bp: <ul> 
+                        <li>In charge of the main concepting and level designs:</li>
+                            <ul>
+                                <li>Worked on design, planning, implementing and testing a vast majority of the levels</li>
+                                <li>Made the concept designs for the main character models, enemies and environment.</li>
+                            </ul>
+                        <li>Programmed the obstacle mechanics for each level and helped out with the player mechanics</li>
+                     </ul>
+                visibility: true
               # - project_thumbnail: BeatCity.png
               #   project_title: Beat City
               #   project_description: A music based platformer game, developed by myself to experiment with music manipulation.
@@ -194,14 +193,14 @@ author_project_details:
               #               </ul>
               #        </ul>
               #   visibility: false
-              # - project_thumbnail: pop.png
-              #   project_title: Poppin Hoppin Unlockin
-              #   project_description: A fantasy-platformer game, developed for a University Gamejam by a group which I lead.
-              #   project_url: https://amy-elliott.itch.io/poppin-hoppin-unlockin
-              #   date: 24th February, 2020
-              #   engine: unity.png
-              #   language: cs.png
-              #   visibility: false
+              - project_thumbnail: pop.png
+                project_title: Poppin Hoppin Unlockin
+                project_description: A fantasy-platformer game, developed for a University Gamejam by a group which I lead.
+                project_url: https://amy-elliott.itch.io/poppin-hoppin-unlockin
+                date: 31st January, 2022
+                engine: unity.png
+                language: cs.png
+                visibility: true
 
 # Professional Games
 # author_professional_games:   
@@ -271,33 +270,33 @@ author_personal_games:
                 tag3: Competitive
                 browser_playable: false
                 visibility: true 
-              - game_thumbnail: /gamelib/ordos.png
-                game_title: Ordos - Order & Chaos
-                game_release: 12th May, 2020            
-                game_blog: /blog/ordos/
-                tag1: Action
-                tag2: Combat Flight Simulator
-                tag3: Fantasy
-                browser_playable: false
-                visibility: true 
-              - game_thumbnail: /gamelib/westernrunner.png
-                game_title: Western Runner
-                game_release: November, 2019            
-                game_blog: /blog/western-runner/
-                tag1: Endless Runner
-                tag2: Casual
-                tag3: Western
-                browser_playable: false
-                visibility: true 
-              - game_thumbnail: /gamelib/capsays.png
-                game_title: Captain Says
-                game_release: 31st August, 2019            
-                game_blog: /blog/captain-says/
-                tag1: Educational
-                tag2: Casual
-                tag3: Arcade
-                browser_playable: false
-                visibility: true 
+              # - game_thumbnail: /gamelib/ordos.png
+              #   game_title: Ordos - Order & Chaos
+              #   game_release: 12th May, 2020            
+              #   game_blog: /blog/ordos/
+              #   tag1: Action
+              #   tag2: Combat Flight Simulator
+              #   tag3: Fantasy
+              #   browser_playable: false
+              #   visibility: false 
+              # - game_thumbnail: /gamelib/westernrunner.png
+              #   game_title: Western Runner
+              #   game_release: November, 2019            
+              #   game_blog: /blog/western-runner/
+              #   tag1: Endless Runner
+              #   tag2: Casual
+              #   tag3: Western
+              #   browser_playable: false
+              #   visibility: false 
+              # - game_thumbnail: /gamelib/capsays.png
+              #   game_title: Captain Says
+              #   game_release: 31st August, 2019            
+              #   game_blog: /blog/captain-says/
+              #   tag1: Educational
+              #   tag2: Casual
+              #   tag3: Arcade
+              #   browser_playable: false
+              #   visibility: false 
               - game_thumbnail: /gamelib/onlyonerecruit.png
                 game_title: Only One Recruit
                 game_release: 4th August, 2019           
@@ -316,15 +315,15 @@ author_personal_games:
                 tag3: Action
                 browser_playable: true
                 visibility: true
-              - game_thumbnail: /gamelib/aquaadventure.png
-                game_title: Aqua Adventure
-                game_release: 3rd December, 2020           
-                game_blog: /blog/aqua-adventure/
-                tag1: Shoot em up
-                tag2: Retro
-                tag3: Action
-                browser_playable: false
-                visibility: true
+              # - game_thumbnail: /gamelib/aquaadventure.png
+              #   game_title: Aqua Adventure
+              #   game_release: 3rd December, 2020           
+              #   game_blog: /blog/aqua-adventure/
+              #   tag1: Shoot em up
+              #   tag2: Retro
+              #   tag3: Action
+              #   browser_playable: false
+              #   visibility: false
               - game_thumbnail: /gamelib/somewhereinberkshire.png
                 game_title: Somewhere In Berkshire
                 game_release: 19th June, 2020           

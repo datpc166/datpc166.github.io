@@ -54,7 +54,7 @@ usemathjax: true
 <!--- ------------------------------------ -->
 <!--- Embed or Youtube Footage of the game -->
 <!--- ------------------------------------ -->
-<div style="text-align: center;"><iframe frameborder="0" src="https://itch.io/embed-upload/2803554?color=333333" allowfullscreen="" width="1000" height="700"><a href="https://horsehead.itch.io/driven-round-the-loop">Play Driven Round the Loop on itch.io</a></iframe></div>
+<div style="text-align: center;"><iframe frameborder="0" src="https://itch.io/embed-upload/2803554?color=333333" allowfullscreen="" width="100%" height="700"><a href="https://horsehead.itch.io/driven-round-the-loop">Play Driven Round the Loop on itch.io</a></iframe></div>
 
 <hr>
 <!--- ------------------------------------ -->
