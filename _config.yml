@@ -145,7 +145,7 @@ author_project_details:
                 project_title: Team Swap Heroes
                 project_description: A teamwork-based puzzle game made for Minijam 48.
                 project_url: https://horsehead.itch.io/team-swap-heroes 
-                blog_url: https://amy-portfolio.com/team-swap-heroes
+                blog_url: /blog/team-swap-heroes
                 date: 31st January, 2022
                 engine: unity.png
                 language: cs.png
@@ -197,6 +197,7 @@ author_project_details:
                 project_title: Poppin Hoppin Unlockin
                 project_description: A fantasy-platformer game, developed for a University Gamejam by a group which I lead.
                 project_url: https://amy-elliott.itch.io/poppin-hoppin-unlockin
+                blog_url: /blog/pop-hop-unlock
                 date: 31st January, 2022
                 engine: unity.png
                 language: cs.png
