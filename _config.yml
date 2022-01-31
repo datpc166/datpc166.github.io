@@ -78,175 +78,165 @@ author_work_experiences:
 
 # Education
 author_education_details:
-              - college_logo: uop.png
-                college_name: University of Portsmouth
-                college_url: https://www.port.ac.uk/
-                study_duration: 2020 - Present
-                college_degree: Computer Games Technology
-                description: Bachelor of Science
-                visibility: true
-              - college_logo: nbc.png
-                college_name: Northbrook Metropolitan College
-                college_url: https://www.gbmc.ac.uk/
-                study_duration: 2018 - 2019
-                college_degree: Games Development
-                description: UAL Level 3 Diploma in Creative Media
-                visibility: true
               - college_logo: ptit.png
                 college_name: PTIT - Hoc Vien Cong Nghe Buu Chinh Vien Thong
                 college_url: https://portal.ptit.edu.vn/
+                study_duration: Oct 2020 - Present
                 college_degree: Information Security major
                 description: Bachelor of Technology
+                college_url: https://portal.ptit.edu.vn/
                 visibility: true
               - college_logo: thpt.png
                 college_name: THPT Thuong Tin
                 college_url: https://www.facebook.com/Thuongtintrongtoi/
-                college_degree: high school diploma
+                study_duration: Aug 2017 - Jun 2020
+                college_degree: High School Diploma
+                college_url: https://www.facebook.com/Thuongtintrongtoi/
                 visibility: true
 
 
 # Projects
 author_project_details:
-              - project_thumbnail: oldschoolrunescape.png
-                project_title: OldSchool RuneScape
-                project_description: Worked on the engine team to support the operation and on-going enhancement of the RuneScape engine and associated systems.
-                project_url: https://www.jagex.com/en-GB/
-                blog_url: /blog/my-time-working-on-runecape
-                date: 17th August, 2021
-                engine: inhouse.png
-                language: cpp.png
-                published: jagex.png
-                role: Intern Game Engine Developer
-                team: https://www.jagex.com/en-GB/
-                dev: Jagex
-                bp: <ul> 
-                        <li>Worked on developing client server architecture</li>
-                        <li>Learnt about what it's like working on a live MMORPG</li>
-                        <li>Learnt about how engine programming works and what engines are like under the hood</li>
-                        <li>Went on multiple livestreams with large audiences</li>
-                     </ul>
-                visibility: true 
-              - project_thumbnail: jagex.png
-                project_title: Unannounced MMORPG
-                project_description: Worked on the gameplay programming for an Unannounced Triple-A MMORPG in pre-production & implemented some core gameplay mechanics.
-                project_url: https://www.jagex.com/en-GB/
-                blog_url: /blog/what-ive-learnt-working-on-jagexs-unannounced-mmorpg/
-                date: 17th July, 2021
-                engine: unrealengine.png
-                language: cpp.png
-                published: jagex.png
-                role: Intern Gameplay Programmer
-                team: https://www.jagex.com/en-GB/
-                dev: Jagex
-                bp: <ul> 
-                        <li>Implemented core gameplay mechanics for MMORPGs</li>
-                        <li>Used Unreal Engine & C++ to learn the best industry practices</li>
-                        <li>Wrote code using networking & replication</li>
-                        <li>Worked with different diciplines on the development team</li>
-                     </ul>
-                visibility: true   
-              - project_thumbnail: blocky.png
-                project_title: Blocky Road
-                project_description: A hyper-casual puzzle game, made in 15 hours.
-                project_url: https://amy-elliott.itch.io/blockyroads
-                blog_url: /blog/blocky-road/
-                date: 28th October, 2020
-                engine: unity.png
-                language: cs.png
-                published: itch.png
-                role: Solo Project
-                team: http://gamedev.amy-portfolio.com/blog/authors/amyelliott
-                dev: Amy Elliott
-                bp: <ul> 
-                        <li>Programmed a two-way puzzle system:</li-ph>
-                            <ul>
-                                <li>Made sure there were different challenges on each side.</li>
-                                <li>The puzzles can't be solved without the help from the opposite side.</li>
-                            </ul>
-                        <li>Inspired by mobile games like Crossy Road and Monument Valley</li>
-                     </ul>
-                visibility: true
-              - project_thumbnail: subsim.png
-                project_title: Planesman Trainer
-                project_description: A submarine simulator game which was made for the Royal Navy's recruitment events
-                project_url: https://www.royalnavy.mod.uk/careers/roles-and-specialisations/services/submarine-service
-                blog_url: /blog/sub-sim/
-                date: 9th April, 2021
-                engine: unity.png
-                language: cs.png
-                published: rn.png
-                role: Lead Programmer
-                team: http://gamedev.amy-portfolio.com/blog/authors/submariner#/
-                dev: Team Submariner
-                bp: <ul> 
-                        <li>Programmed a majority of the main game systems</li-ph>
-                            <ul>
-                                <li>Worked on the periscope camera and the implementation</li>
-                                <li>Helped my teammates learn how to use Unity and C# so no one was left hanging without a task</li>
-                            </ul>
-                        <li>Worked on finding assets and royalty-free materials to use for the environment</li>
-                     </ul>
-                visibility: true
-              - project_thumbnail: tsh.png
-                project_title: Team Swap Heroes
-                project_description: A teamwork-based puzzle game made for Minijam 48.
-                project_url: https://horsehead.itch.io/team-swap-heroes 
-                blog_url: https://amy-portfolio.com/team-swap-heroes
-                date: 24th February, 2020
-                engine: unity.png
-                language: cs.png
-                published: itch.png
-                role: Programmer & Designer
-                team: http://gamedev.amy-portfolio.com/blog/authors/teamhorsehead#/
-                dev: Team Horsehead
-                bp: <ul> 
-                        <li>In charge of the main concepting and level designs:</li>
-                            <ul>
-                                <li>Worked on design, planning, implementing and testing a vast majority of the levels</li>
-                                <li>Made the concept designs for the main character models, enemies and environment.</li>
-                            </ul>
-                        <li>Programmed the obstacle mechanics for each level and helped out with the player mechanics</li>
-                     </ul>
-                visibility: false
-              - project_thumbnail: BeatCity.png
-                project_title: Beat City
-                project_description: A music based platformer game, developed by myself to experiment with music manipulation.
-                project_url: https://amy-elliott.itch.io/beat-city
-                date: 24th February, 2020
-                engine: unity.png
-                language: cs.png
-                visibility: false
-              - project_thumbnail: capsays.png
-                project_title: Captain Says
-                project_description: An educational action game, published to the Google Playstore.
-                project_url: https://play.google.com/store/apps/details?id=com.AmyE.CaptainSays&hl=en_GB&gl=US
-                blog_url: https://amy-portfolio.com/captain-says
-                date: 31st August, 2019
-                engine: unity.png
-                language: cs.png
-                published: gplaystore.png
-                role: Programmer & Designer
-                team: http://gamedev.amy-portfolio.com/blog/authors/teamhorsehead#/
-                dev: Team Horsehead
-                bp: <ul>                        
-                        <li>Learnt how to publish games on the Google Playstore.</li>
-                        <li>Programmed and designed the player movement for both webGL & mobile versions</li>
-                        <li>Programmed the enemy system</li>
-                        <li>Programmed the scoring and highscore system</li>
-                        <li>Designed and implemented the UI</li>                        
-                            <ul>
-                                <li>Researched and implemented music feedback in the background and UI</li>
-                            </ul>
-                     </ul>
-                visibility: false
-              - project_thumbnail: pop.png
-                project_title: Poppin Hoppin Unlockin
-                project_description: A fantasy-platformer game, developed for a University Gamejam by a group which I lead.
-                project_url: https://amy-elliott.itch.io/poppin-hoppin-unlockin
-                date: 24th February, 2020
-                engine: unity.png
-                language: cs.png
-                visibility: false
+              # - project_thumbnail: oldschoolrunescape.png
+              #   project_title: OldSchool RuneScape
+              #   project_description: Worked on the engine team to support the operation and on-going enhancement of the RuneScape engine and associated systems.
+              #   project_url: https://www.jagex.com/en-GB/
+              #   blog_url: /blog/my-time-working-on-runecape
+              #   date: 17th August, 2021
+              #   engine: inhouse.png
+              #   language: cpp.png
+              #   published: jagex.png
+              #   role: Intern Game Engine Developer
+              #   team: https://www.jagex.com/en-GB/
+              #   dev: Jagex
+              #   bp: <ul> 
+              #           <li>Worked on developing client server architecture</li>
+              #           <li>Learnt about what it's like working on a live MMORPG</li>
+              #           <li>Learnt about how engine programming works and what engines are like under the hood</li>
+              #           <li>Went on multiple livestreams with large audiences</li>
+              #        </ul>
+              #   visibility: true 
+              # - project_thumbnail: jagex.png
+              #   project_title: Unannounced MMORPG
+              #   project_description: Worked on the gameplay programming for an Unannounced Triple-A MMORPG in pre-production & implemented some core gameplay mechanics.
+              #   project_url: https://www.jagex.com/en-GB/
+              #   blog_url: /blog/what-ive-learnt-working-on-jagexs-unannounced-mmorpg/
+              #   date: 17th July, 2021
+              #   engine: unrealengine.png
+              #   language: cpp.png
+              #   published: jagex.png
+              #   role: Intern Gameplay Programmer
+              #   team: https://www.jagex.com/en-GB/
+              #   dev: Jagex
+              #   bp: <ul> 
+              #           <li>Implemented core gameplay mechanics for MMORPGs</li>
+              #           <li>Used Unreal Engine & C++ to learn the best industry practices</li>
+              #           <li>Wrote code using networking & replication</li>
+              #           <li>Worked with different diciplines on the development team</li>
+              #        </ul>
+              #   visibility: true   
+              # - project_thumbnail: blocky.png
+              #   project_title: Blocky Road
+              #   project_description: A hyper-casual puzzle game, made in 15 hours.
+              #   project_url: https://amy-elliott.itch.io/blockyroads
+              #   blog_url: /blog/blocky-road/
+              #   date: 28th October, 2020
+              #   engine: unity.png
+              #   language: cs.png
+              #   published: itch.png
+              #   role: Solo Project
+              #   team: http://gamedev.amy-portfolio.com/blog/authors/amyelliott
+              #   dev: Amy Elliott
+              #   bp: <ul> 
+              #           <li>Programmed a two-way puzzle system:</li-ph>
+              #               <ul>
+              #                   <li>Made sure there were different challenges on each side.</li>
+              #                   <li>The puzzles can't be solved without the help from the opposite side.</li>
+              #               </ul>
+              #           <li>Inspired by mobile games like Crossy Road and Monument Valley</li>
+              #        </ul>
+              #   visibility: true
+              # - project_thumbnail: subsim.png
+              #   project_title: Planesman Trainer
+              #   project_description: A submarine simulator game which was made for the Royal Navy's recruitment events
+              #   project_url: https://www.royalnavy.mod.uk/careers/roles-and-specialisations/services/submarine-service
+              #   blog_url: /blog/sub-sim/
+              #   date: 9th April, 2021
+              #   engine: unity.png
+              #   language: cs.png
+              #   published: rn.png
+              #   role: Lead Programmer
+              #   team: http://gamedev.amy-portfolio.com/blog/authors/submariner#/
+              #   dev: Team Submariner
+              #   bp: <ul> 
+              #           <li>Programmed a majority of the main game systems</li-ph>
+              #               <ul>
+              #                   <li>Worked on the periscope camera and the implementation</li>
+              #                   <li>Helped my teammates learn how to use Unity and C# so no one was left hanging without a task</li>
+              #               </ul>
+              #           <li>Worked on finding assets and royalty-free materials to use for the environment</li>
+              #        </ul>
+              #   visibility: true
+              # - project_thumbnail: tsh.png
+              #   project_title: Team Swap Heroes
+              #   project_description: A teamwork-based puzzle game made for Minijam 48.
+              #   project_url: https://horsehead.itch.io/team-swap-heroes 
+              #   blog_url: https://amy-portfolio.com/team-swap-heroes
+              #   date: 24th February, 2020
+              #   engine: unity.png
+              #   language: cs.png
+              #   published: itch.png
+              #   role: Programmer & Designer
+              #   team: http://gamedev.amy-portfolio.com/blog/authors/teamhorsehead#/
+              #   dev: Team Horsehead
+              #   bp: <ul> 
+              #           <li>In charge of the main concepting and level designs:</li>
+              #               <ul>
+              #                   <li>Worked on design, planning, implementing and testing a vast majority of the levels</li>
+              #                   <li>Made the concept designs for the main character models, enemies and environment.</li>
+              #               </ul>
+              #           <li>Programmed the obstacle mechanics for each level and helped out with the player mechanics</li>
+              #        </ul>
+              #   visibility: false
+              # - project_thumbnail: BeatCity.png
+              #   project_title: Beat City
+              #   project_description: A music based platformer game, developed by myself to experiment with music manipulation.
+              #   project_url: https://amy-elliott.itch.io/beat-city
+              #   date: 24th February, 2020
+              #   engine: unity.png
+              #   language: cs.png
+              #   visibility: false
+              # - project_thumbnail: capsays.png
+              #   project_title: Captain Says
+              #   project_description: An educational action game, published to the Google Playstore.
+              #   project_url: https://play.google.com/store/apps/details?id=com.AmyE.CaptainSays&hl=en_GB&gl=US
+              #   blog_url: https://amy-portfolio.com/captain-says
+              #   date: 31st August, 2019
+              #   engine: unity.png
+              #   language: cs.png
+              #   published: gplaystore.png
+              #   role: Programmer & Designer
+              #   team: http://gamedev.amy-portfolio.com/blog/authors/teamhorsehead#/
+              #   dev: Team Horsehead
+              #   bp: <ul>                        
+              #           <li>Learnt how to publish games on the Google Playstore.</li>
+              #           <li>Programmed and designed the player movement for both webGL & mobile versions</li>
+              #           <li>Programmed the enemy system</li>
+              #           <li>Programmed the scoring and highscore system</li>
+              #           <li>Designed and implemented the UI</li>                        
+              #               <ul>
+              #                   <li>Researched and implemented music feedback in the background and UI</li>
+              #               </ul>
+              #        </ul>
+              #   visibility: false
+              # - project_thumbnail: pop.png
+              #   project_title: Poppin Hoppin Unlockin
+              #   project_description: A fantasy-platformer game, developed for a University Gamejam by a group which I lead.
+              #   project_url: https://amy-elliott.itch.io/poppin-hoppin-unlockin
+              #   date: 24th February, 2020
+              #   engine: unity.png
+              #   language: cs.png
+              #   visibility: false
 
 # Professional Games
 author_professional_games:
@@ -449,12 +439,12 @@ author_personal_games:
                 visibility: true
 
 # social links
-twitter_username: quocdat1606
-github_username:  datptit16
+twitter_username: datpc_
+github_username:  datpc166
 facebook_username: quocdat1606
 linkedin_username: dylan1606
 # behance_username: johndoe
-instagram_username: quocdat1606
+instagram_username: datpc_
 medium_username: nqdat160602
 telegram_username: Quocdat1606
 # dribbble_username: johndoe
