@@ -252,6 +252,15 @@ layout: default
             </div>
         </div>
 
+        <!-- Coding Activities wakatime.com -->
+        {% if site.wakatime_username %}
+            <div class="card">
+            <h1>Coding Activity</h1>
+
+            {%- include coding_activity.html -%}
+        </div>
+        {% endif %}
+
         <!--This is the Gamejam Card, which includes all the Gamejams I've participated in-->
         <div class="card">
             <h1 style="word-wrap: normal">Gamejams</h1>

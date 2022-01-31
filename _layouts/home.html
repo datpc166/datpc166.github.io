@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: full-width
 ---
 
 <script>
@@ -65,14 +65,15 @@ layout: default
 
     <!-- uncomment/modify buttons as you want-->
       <div class="jumbotron-btns">
-        <a href="{{site.url}}{{site.baseurl}}/#mc-embedded-subscribe-form">
+        <a href="#mc-embedded-subscribe-form">
+    
           <button class="btn btn-md btn-warning"> <strong>Subcribe</strong> </button>
         </a>
         <a id="olvy-target">
           <button class="btn btn-md btn-default"> <strong>What's New</strong> </button>
          </a>
       </div>
-      
+
 </div>
 
 
@@ -90,8 +91,8 @@ layout: default
             </div>
             <div class="column-two" style="text-align:right; max-width: 50%">
                 <p style="text-align:right; word-wrap: normal">{{ project.date }}</p>
-                <img src="{{site.url}}{{site.baseurl}}/assets/img/posts/icons/thumbnail/50pxPh/{{project.engine}}" padding:50px" />
-                <img src="{{site.url}}{{site.baseurl}}/assets/img/posts/icons/thumbnail/50pxPh/{{project.language}}" padding:50px" />
+                <img src="{{site.url}}{{site.baseurl}}/assets/img/posts/icons/thumbnail/50pxPh/{{project.engine}}" padding:50px />
+                <img src="{{site.url}}{{site.baseurl}}/assets/img/posts/icons/thumbnail/50pxPh/{{project.language}}" padding:50px />
                 <a href="{{project.project_url}}" style="padding: 0px" target="_blank"><img src="{{site.url}}{{site.baseurl}}/assets/img/posts/icons/thumbnail/50pxPh/{{project.published}}" /></a>
             </div>
         </div>
@@ -111,8 +112,6 @@ layout: default
     </div>
     {% endif %} {% endfor %}
 </div>
-
-<hr>
 
 <div class="col-lg-8 offset-md-2">
     <section id="recent-articles">
@@ -159,10 +158,6 @@ layout: default
         {% endfor %}
     </ul>
     </section>
-</div>
-
-<div class="col-lg-12" id="newsletter_footer">
-   {%- include blog_newsletter.html -%}
 </div>
 
 <div class="card">

@@ -1,17 +1,16 @@
 ---
+title: 2022 Lunar New Year in Vietnam
 layout: post
 author: dylan
-title: 2022 Lunar New Year in Vietnam
+summary: How is Tet holiday in Vietnam?
 type: "Personal Blog"
 color: "background-color: firebrick"
 date: 2022-01-28 09:52:20
 thumbnail: /assets/img/posts/LunarNewYearVN/lunar-newyear-2022.png
-category: holiday
-summary: How is Tet holiday in Vietnam?
+category: ['holiday']
 keywords: lunar new year, Viet Nam, Tet, holiday
 permalink: /blog/lunar-new-year-2022-in-Viet-Nam/
 usemathjax: true
-published: true
 ---
 
 {% include image-responsive.html link="/assets/img/posts/LunarNewYearVN/lunar-newyear-2022.png" %}
