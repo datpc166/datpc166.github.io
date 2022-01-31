@@ -33,47 +33,12 @@ hero_cover_img: cover.jpg # replace this for changing homepage cover (eg. try co
 
 # Experiences
 author_work_experiences:
-            - company_name: Sumo Digital
-              company_logo: sumo.png
-              company_url: https://leamington.sumo-digital.com/
-              work_duration: Aug 2021 - Present
-              designation: Placement Programmer
-              description: Working on Programming.
-              visibility: true    
-            - company_name: Jagex
-              company_logo: jagex.png
-              company_url: https://www.jagex.com/en-GB/
-              work_duration: May 2021 - Aug 2021
-              designation: Game Enginner Intern 
-              description: Worked on Programming for MMORPGs in pre-production, and live products in a Triple-A Industry environment.
-              visibility: true  
-            - company_name: Game Development Mentor
-              company_logo: mentor.png
-              company_url: http://gamedev.amy-portfolio.com/
-              work_duration: Sept 2021 - Present
+            - company_name: Bug Bounty Program
+              company_logo: bug-bounty.svg
+              company_url: http://nguyenquocdat.info/
+              work_duration: Dec 2021 - Present
               designation: Freelance
-              description: I've been mentoring a student to teach them about Game Development, from making a game design document all the way to finishing up a game which they've designed!
-              visibility: true
-            - company_name: Submarine Simulator for The Royal Navy
-              company_logo: rn.png
-              company_url: https://www.royalnavy.mod.uk/careers/roles-and-specialisations/services/submarine-service
-              work_duration: Dec 2020 - Apr 2021
-              designation: Lead Programmer
-              description: Worked in collaboration with The Royal Navy to produce a submarine simulator for recruitment events
-              visibility: true
-            - company_name: Commission Work
-              company_logo: commission.png
-              company_url: https://art.amy-portfolio.com
-              work_duration: Aug 2020 - Present
-              designation:  Freelance Artist
-              description: Worked with clients to produce character designs and illustrative pieces.
-              visibility: true
-            - company_name: CeX Ltd.
-              company_logo: cex.png
-              company_url: https://uk.webuy.com/
-              work_duration: Jun 2018 - May 2021
-              designation: Retail Sales Assistant
-              description: I worked as an on-the-floor sales assistant. I was responsible for on-the-spot testing for customers’ phones and games consoles and offering to purchase the device.
+              description: As a sophomore, I have been learning about the bug bounty program and have learned a lot from it. It's very interesting!
               visibility: true
 
 # Education
