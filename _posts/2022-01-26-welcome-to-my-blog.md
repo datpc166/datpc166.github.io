@@ -1,5 +1,5 @@
 ---
-title: Welcome to Nguyen Quoc Dat's blog website !
+title: Welcome to Nguyen Quoc Dat's blog website!
 layout: post
 summary: Introduction to my new website
 author: dylan
