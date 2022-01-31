@@ -204,39 +204,7 @@ author_project_details:
               #   visibility: false
 
 # Professional Games
-author_professional_games:
-              - game_thumbnail: /gamelib/sumo.png
-                game_title: Unannounced Game
-                game_release: Ongoing              
-                game_blog: /wip
-                tag1: Sumo Digital
-                tag2: '???'
-                tag3: '???'
-                visibility: true 
-              - game_thumbnail: /gamelib/oldschoolrunescape.png
-                game_title: Old School Runescape
-                game_release: Ongoing              
-                game_blog: /blog/my-time-working-on-runecape/
-                tag1: AAA
-                tag2: Jagex
-                tag3: MMORPG
-                visibility: true 
-              - game_thumbnail: /gamelib/jagex.png
-                game_title: Unannounced Triple-A MMORPG
-                game_release: Ongoing            
-                game_blog: /blog/what-ive-learnt-working-on-jagexs-unannounced-mmorpg/
-                tag1: AAA
-                tag2: Jagex
-                tag3: MMORPG
-                visibility: true  
-              - game_thumbnail: /gamelib/subsim.png
-                game_title: Submarine Simulator
-                game_release: 9th April, 2021          
-                game_blog: /blog/sub-sim/
-                tag1: Teamwork
-                tag2: Simulator
-                tag3: Royal Navy
-                visibility: true  
+# author_professional_games:   
 
 # Personal Games
 author_personal_games:
