@@ -16,7 +16,7 @@ layout: default
     <!---------------------------------------->
     <video id="video-background" autoplay muted playsinline loop>
         <source src="{{site.url}}{{site.baseurl}}/assets/img/showreel.mp4" type="video/mp4">
-        <!-- <source src="{{site.url}}{{site.baseurl}}/assets/img/showreel.ogg" type="video/ogg"> -->
+        <source src="{{site.url}}{{site.baseurl}}/assets/img/showreel.ogg" type="video/ogg">
         Your browser does not support the video tag.
     </video>
     <script>document.getElementById('myvideo').play();</script>
@@ -29,15 +29,7 @@ layout: default
     <p class="lead" id="typewriteText"></p>
     <!-- <p class="lead">I'm a Penetration Tester!</p> -->
 
-    <!-- uncomment/modify buttons as you want-->
-      <div class="jumbotron-btns">
-        <a href="{{site.url}}{{site.baseurl}}/#mc-embedded-subscribe-form">
-          <button class="btn btn-md btn-warning"> <strong>Subcribe</strong> </button>
-        </a>
-        <a id="olvy-target">
-          <button class="btn btn-md btn-default"> <strong>What's New</strong> </button>
-         </a>
-      </div>
+    
 
     <!---------------------------------------->
     <!--SOCIAL MEDIA LINKS-->
@@ -70,7 +62,19 @@ layout: default
         </a>
         {% endif %}
     </p>
+
+    <!-- uncomment/modify buttons as you want-->
+      <div class="jumbotron-btns">
+        <a href="{{site.url}}{{site.baseurl}}/#mc-embedded-subscribe-form">
+          <button class="btn btn-md btn-warning"> <strong>Subcribe</strong> </button>
+        </a>
+        <a id="olvy-target">
+          <button class="btn btn-md btn-default"> <strong>What's New</strong> </button>
+         </a>
+      </div>
+      
 </div>
+
 
 <div class="row" style="padding: 10px; justify-content: center">
     {% for project in site.author_project_details %} {% if project.visibility
