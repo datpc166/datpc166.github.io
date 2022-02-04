@@ -10,7 +10,20 @@
 input#theme-toggle {
     position: absolute;
     right: 18px;
+    width: 68.66px;
+    height: 29.6px;
 }
 
 
+.card-body {
+    text-align: justify;
+}
+
+.card-body h2, .card-body h3, .card-body h4, .card-body h5, .card-body h6 {
+    text-align: left;
+}
+
+.card-body h1 {
+    text-align: center;
+}
 
