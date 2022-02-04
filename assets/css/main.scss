@@ -14,7 +14,6 @@ input#theme-toggle {
     height: 29.6px;
 }
 
-
 .card-body {
     text-align: justify;
 }
@@ -27,3 +26,7 @@ input#theme-toggle {
     text-align: center;
 }
 
+// page number
+.row.center {
+    overflow-x: auto;
+}
