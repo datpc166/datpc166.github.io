@@ -7,12 +7,39 @@
 
 /* custom css goes below */
 
-input#theme-toggle {
-    position: absolute;
-    right: 18px;
-    width: 68.66px;
-    height: 29.6px;
+
+/* theme-toggle responsive*/
+
+@media (min-width: 481px) {
+    input#theme-toggle {
+        position: absolute;
+        right: 18px;
+        width: 68.66px;
+        height: 29.6px;
+        left: 0;
+        margin: auto 19px;
+    }
 }
+
+@media (min-width: 320px) and (max-width: 480px){
+    input#theme-toggle {
+        width: 68.66px;
+        height: 29.6px;
+        left: 0;
+        margin: 0 auto 7px;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 319px) {
+    input#theme-toggle {
+        width: 68.66px;
+        height: 29.6px;
+        left: 0;
+        margin: 0 auto 7px;
+    }
+}
+
+// text-align in blog-post
 
 .card-body {
     text-align: justify;

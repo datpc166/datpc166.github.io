@@ -209,6 +209,7 @@ html[data-theme="light"] {
 
 ol, ul {
     margin-left: 30px !important;
+    margin-right: 30px !important;
     margin-top: 10px;
 }
 
@@ -347,6 +348,8 @@ th {
 
 tr:nth-child(even) {
     background-color: #1c1c1e;
+    background-color: grey;
+    color: #cccccc;
 }
 
 details {
@@ -459,6 +462,7 @@ details > summary
     .wrapper {
         width: 100%;
     }
+    
 }
 
 //Part of the collapsible group items
@@ -1085,7 +1089,9 @@ header {
 
 @media (min-width: 768px) {
     .offset-md-1 {
-    margin-left: 3.333333% !important;
+        margin-left: 3.333333% !important;
+        margin-right: 3.333333% !important;
+
     }
 }
 
@@ -1239,7 +1245,7 @@ header {
     }
 
     #mce-EMAIL_footer {
-        width: 400px;
+        width: 100%;
         padding: 14px;
         color: #111;
         border-color: #111;
@@ -1251,6 +1257,7 @@ header {
 
     #mc-embedded-subscribe_footer {
         margin-top: 30px;
+        font-size: 100%;
     }
 
 footer {
@@ -1299,14 +1306,14 @@ footer {
             }
 
             #mc_embed_signup_scroll_footer {
-                margin-left: 5%;
-                margin-right: 5%;
+                // margin-left: 5%;
+                // margin-right: 5%;
                 text-align: center;
                 font-size: 12px;
             }
 
             #mce-EMAIL_footer {
-                width: 200px;
+                width: 100%;
                 padding: 14px;
                 color: #111;
                 border-color: #fff;
@@ -1317,6 +1324,8 @@ footer {
 
             #mc-embedded-subscribe_footer {
                 margin-top: 30px;
+                font-size: 100%;
+
             }
 
             .blog-post {
@@ -1347,6 +1356,8 @@ footer {
             .jumbotron {
                 padding: 10rem 1rem !important;
             }
+
+           
 
 }
 
@@ -1385,17 +1396,20 @@ footer {
       }
 
       #mce-EMAIL_footer {
-          width: 200px;
+          width: 100%;
           padding: 14px;
           color: #111;
           border-color: #fff;
           text-align: center;
           text-transform: capitalize;
           border: 1px solid #fff;
+          width: 100%;
       }
 
       #mc-embedded-subscribe_footer {
-          margin-top: 30px;
+        margin-top: 30px;
+        font-size: 100%;
+
       }
 
       .blog-post {
@@ -1427,6 +1441,7 @@ footer {
       .jumbotron {
           padding: 10rem 1rem !important;
       }
+      
 
 }
 
@@ -1466,14 +1481,14 @@ footer {
           }
 
           #mc_embed_signup_scroll_footer {
-              margin-left: 5%;
-              margin-right: 5%;
+            //   margin-left: 5%;
+            //   margin-right: 5%;
               text-align: center;
               font-size: 12px;
           }
 
           #mce-EMAIL_footer {
-              width: 200px;
+              width: 100%;
               padding: 14px;
               color: #111;
               border-color: #fff;
@@ -1484,12 +1499,14 @@ footer {
 
           #mc-embedded-subscribe_footer {
               margin-top: 30px;
+            font-size: 100%;
+
           }
 
           .blog-post {
                 width: 100%;
                 height: auto;
-                margin: 20px !important;
+                margin: 20px 15px 20px 20px !important;
             }
 
             .product{
