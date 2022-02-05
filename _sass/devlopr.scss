@@ -315,9 +315,13 @@ li-n {
 }
 
 .row {
+    display: -ms-flexbox;
     display: flex;
-    //flex-wrap: wrap;
-    padding: 0 4px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 0px 15px;
 }
 
 table {

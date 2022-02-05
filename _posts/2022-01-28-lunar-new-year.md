@@ -13,8 +13,6 @@ permalink: /blog/lunar-new-year-2022-in-Viet-Nam/
 usemathjax: true
 ---
 
-{% include image-responsive.html link="/assets/img/posts/LunarNewYearVN/lunar-newyear-2022.png" %}
-
 So there are only a few days left until the 2022 Lunar New Year in Vietnam, also known as Tet. Tet is a special day to welcome the new year of Asia and specifically East and Southeast Asian countries such as Vietnam, China, Singapore, etc. It is also a feature of the Hindu-Buddhist calendars of South and Southeast Asia, the Islamic calendar and the Jewish calendar. In this article, Dylan will provide you with information and better understand about the Lunar New Year in Vietnam, then we look back at 2021 and welcome 2022.
 
 ### What is Lunar New Year? Origin of Lunar New Year

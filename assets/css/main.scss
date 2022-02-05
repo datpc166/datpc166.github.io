@@ -10,7 +10,7 @@
 
 /* theme-toggle responsive*/
 
-@media (min-width: 481px) {
+@media (min-width: 768px) {
     input#theme-toggle {
         position: absolute;
         right: 18px;
@@ -21,16 +21,7 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 480px){
-    input#theme-toggle {
-        width: 68.66px;
-        height: 29.6px;
-        left: 0;
-        margin: 0 auto 7px;
-    }
-}
-
-@media (min-width: 200px) and (max-width: 319px) {
+@media screen and (max-width: 767px){
     input#theme-toggle {
         width: 68.66px;
         height: 29.6px;
@@ -40,12 +31,7 @@
 }
 
 // text-align in blog-post
-
 .card-body {
-    text-align: justify;
-}
-
-.card-body h2, .card-body h3, .card-body h4, .card-body h5, .card-body h6 {
     text-align: left;
 }
 
@@ -57,3 +43,6 @@
 .row.center {
     overflow-x: auto;
 }
+
+// card-body
+

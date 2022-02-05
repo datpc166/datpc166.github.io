@@ -12,8 +12,6 @@ keywords: Dylan, Nguyen Quoc Dat, blog, website
 permalink: "/blog/welcome-to-my-blog/"
 usemathjax: true
 ---
-{% include image-responsive.html link="/assets/img/posts/WelcomeToMyBlog/welcome.jpg" %}
-
 
 Hello everyone, I'm Nguyen Quoc Dat, and my nickname is Dylan. Currently I am living and studying in Hanoi, Vietnam.Now I am a sophomore majoring in information security at PTIT.
 
