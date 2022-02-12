@@ -6,6 +6,9 @@
  data-item-image="{{ product.image }}"
  data-item-url="{{site.url}}{{site.baseurl}}{{ page.url }}"
  data-item-file-guid="{{ product.guid }}"
- data-item-description="{{ product.content | remove: '<p>' | remove: '</p>' }}">
+ data-item-description="{{ product.content | remove: '<p>' | remove: '</p>' }}"
+ data-item-categories="{{ product.categories }}"
+ >
+
  Add to cart (${{ product.price }})
 </button>

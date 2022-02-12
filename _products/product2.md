@@ -1,8 +1,11 @@
 ---
-identifier: jekyll-starry-night-2
-name: John Doe Mug
-price: 10
+identifier: ethical-hacking-and-penetration-testing
+name: Ethical Hacking and Penetration Testing
+price: 0
+categories: Courses
+content: Build Ethical Hacking and Penetration Testing skills so you can secure your networks and stop malicious attacks
+guid: 6377df4c-9f94-41c1-a98a-5310d7aa729e
 image: /assets/img/products/product2.jpg
 ---
 
-This is a high-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh. Using brand new techniques such as magneto-reluctance and capacitive reactance, we were able to reproduce the original colours with a 99.99% accuracy.
+Build Ethical Hacking and Penetration Testing skills so you can secure your networks and stop malicious attacks

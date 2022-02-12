@@ -1,8 +1,11 @@
 ---
-identifier: john-doe-tshrirt
-name: John Doe Tshirt
-price: 50
+identifier: ethical-hacking-and-network-security-from-scratch-2021
+name: Ethical Hacking and Network Security from scratch 2021
+price: 0
+categories: Courses
+content: Ethical Hacking skills to get ahead. Learn how Hackers hack networks and devices and how to secure them.Learn Kali Linux
+guid: 176c5e3f-dcf1-458b-929d-3dcefda128e1
 image: /assets/img/products/product1.jpg
 ---
 
-This is a high-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh. Using brand new techniques such as magneto-reluctance and capacitive reactance, we were able to reproduce the original colours with a 99.99% accuracy.
+Ethical Hacking skills to get ahead. Learn how Hackers hack networks and devices and how to secure them.Learn Kali Linux
