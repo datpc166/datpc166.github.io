@@ -890,7 +890,7 @@ header {
 }
 #snipcart-floating-cart{
     margin-top: 90px !important;
-    z-index: 1;
+    width: 80px;
 }
 
 .snipcart-cart-button--secondary {
@@ -900,8 +900,9 @@ header {
     text-transform: none;
 }
 .snipcart-payment-methods__title {
-    background-color: black !important;
+    background-color:  var(--main-background-color) !important;
 }
+
 
 //--------------------------------------------------------------------------
 // This sets the background masthead video position stuff

@@ -67,10 +67,11 @@
   <meta name="twitter:description" content="{{ site.description }}" />
   {% endif %} {% if page.header-img %}
   <meta
-    name="twitter:image:src"
+    name="twitter:image:src" 
     content="{{ site.url }}{{ page.thumbnail }}"
   />
   {% endif %}
+
 
   <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/main.css" />
   <!-- <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/custom-style.css" /> -->
@@ -78,6 +79,8 @@
     rel="stylesheet"
     href="{{site.url}}{{site.baseurl}}/assets/bower_components/lightgallery/dist/css/lightgallery.min.css"
   />
+
+
 
   <link
     rel="stylesheet"
@@ -96,11 +99,11 @@
     href="https://fonts.googleapis.com/css?family=Quicksand&display=swap"
     rel="stylesheet"
   />
-
+<!-- Snipcart -->
   <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.3.1/default/snipcart.css" />
-  <script async src="https://cdn.snipcart.com/themes/v3.3.1/default/snipcart.js"></script>
-  <div id="snipcart" data-config-modal-style="side" data-api-key="Y2E5ZDMzZWEtYjUyOC00NGVmLTgxMjctNWE0ZmVjZTU5YmEzNjM3ODAyNjkxMjAyNDI1MTA0" hidden></div>
 
+  <script async src="https://cdn.snipcart.com/themes/v3.3.1/default/snipcart.js"></script>
+  <div hidden id="snipcart" data-api-key="Y2E5ZDMzZWEtYjUyOC00NGVmLTgxMjctNWE0ZmVjZTU5YmEzNjM3ODAyNjkxMjAyNDI1MTA0"></div>
   <!-- Favicon -->
   <!-- <link
     rel="icon"
