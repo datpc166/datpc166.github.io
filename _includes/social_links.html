@@ -1,0 +1,28 @@
+<p class="profile-links">
+    {% if site.twitter_username %}
+    <a class="social-link"
+       href="http://twitter.com/{{ site.twitter_username }}" target="_blank">
+        <i class="fab fa-twitter"></i>
+    </a>
+    {% endif %} {% if site.instagram_username %}
+    <a class="social-link"
+       href="http://instagram.com/{{ site.instagram_username }}" target="_blank">
+        <i class="fab fa-instagram"></i>
+    </a>
+    {% endif %} {% if site.gitlab_username %}
+    <a class="social-link"
+       href="http://gitlab.com/{{ site.gitlab_username }}" target="_blank">
+        <i class="fab fa-gitlab"></i>
+    </a>          
+    {% endif %} {% if site.github_username %}
+    <a class="social-link"
+       href="http://github.com/{{ site.github_username }}" target="_blank">
+        <i class="fab fa-github"></i>
+    </a>
+    {% endif %} {% if site.linkedin_username %}
+    <a class="social-link"
+       href="http://linkedin.com/in/{{ site.linkedin_username }}" target="_blank">
+        <i class="fab fa-linkedin-in"></i>
+    </a>
+    {% endif %}
+</p>

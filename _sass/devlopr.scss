@@ -236,6 +236,7 @@ body {
     overflow-y:scroll;
 }
 
+
 .reactions-view {
     color: var(--bold-color) !important;
 }
@@ -309,6 +310,10 @@ li {
     margin-top: 15px;
 }
 
+.nav li {
+    margin-top: 0;
+}
+
 li-n {
     padding-left: 20px;
     padding-right: 20px;
@@ -322,6 +327,7 @@ li-n {
     margin-right: -15px;
     margin-left: -15px;
     padding: 0px 15px;
+    margin-top: 15px;
 }
 
 table {
@@ -571,8 +577,8 @@ header {
 }
 
 #topNav{
-    padding-left: 100px;
-    padding-right: 100px;
+    // padding-left: 100px;
+    // padding-right: 100px;
     background-color: var(--main-background-color) !important;
     box-shadow: #000 0px 0px 8px;
 }
@@ -909,7 +915,7 @@ header {
     background-position: center top;
     position: relative;
     overflow: hidden;
-    z-index: 1000;
+    // z-index: 1000;
     background-color: black;
 }
 
@@ -960,7 +966,7 @@ header {
 .lead {
     font-size: 1.30rem !important;
     font-weight: 600;
-    color: #111 !important;
+    // color: #111 !important;
 }
 
 .fa {

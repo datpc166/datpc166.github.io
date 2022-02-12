@@ -14,8 +14,8 @@ urls:
       url: /about
     - text: Blogs
       url: /blog
-    - text: Game Library
-      url: /game-library
+    - text: Shop
+      url: /shop
     - text: CV
       url : /cv
 
@@ -100,26 +100,26 @@ author_project_details:
               #           <li>Worked with different diciplines on the development team</li>
               #        </ul>
               #   visibility: true   
-              - project_thumbnail: blocky.png
-                project_title: Blocky Road
-                project_description: A hyper-casual puzzle game, made in 15 hours.
-                project_url: https://amy-elliott.itch.io/blockyroads
-                blog_url: /blog/blocky-road/
-                date: 31st January, 2022
-                engine: unity.png
-                language: cs.png
-                published: itch.png
-                role: Solo Project
-                dev: Amy Elliott
-                bp: <ul> 
-                        <li>Programmed a two-way puzzle system:</li-ph>
-                            <ul>
-                                <li>Made sure there were different challenges on each side.</li>
-                                <li>The puzzles can't be solved without the help from the opposite side.</li>
-                            </ul>
-                        <li>Inspired by mobile games like Crossy Road and Monument Valley</li>
-                     </ul>
-                visibility: true
+              # - project_thumbnail: blocky.png
+              #   project_title: Blocky Road
+              #   project_description: A hyper-casual puzzle game, made in 15 hours.
+              #   project_url: https://amy-elliott.itch.io/blockyroads
+              #   blog_url: /blog/blocky-road/
+              #   date: 31st January, 2022
+              #   engine: unity.png
+              #   language: cs.png
+              #   published: itch.png
+              #   role: Solo Project
+              #   dev: Amy Elliott
+              #   bp: <ul> 
+              #           <li>Programmed a two-way puzzle system:</li-ph>
+              #               <ul>
+              #                   <li>Made sure there were different challenges on each side.</li>
+              #                   <li>The puzzles can't be solved without the help from the opposite side.</li>
+              #               </ul>
+              #           <li>Inspired by mobile games like Crossy Road and Monument Valley</li>
+              #        </ul>
+              #   visibility: true
               # - project_thumbnail: subsim.png
               #   project_title: Planesman Trainer
               #   project_description: A submarine simulator game which was made for the Royal Navy's recruitment events
@@ -141,27 +141,27 @@ author_project_details:
               #           <li>Worked on finding assets and royalty-free materials to use for the environment</li>
               #        </ul>
               #   visibility: true
-              - project_thumbnail: tsh.png
-                project_title: Team Swap Heroes
-                project_description: A teamwork-based puzzle game made for Minijam 48.
-                project_url: https://horsehead.itch.io/team-swap-heroes 
-                blog_url: /blog/team-swap-heroes
-                date: 31st January, 2022
-                engine: unity.png
-                language: cs.png
-                published: itch.png
-                role: Programmer & Designer
-                # team: http://gamedev.amy-portfolio.com/blog/authors/teamhorsehead#/
-                dev: Team Horsehead
-                bp: <ul> 
-                        <li>In charge of the main concepting and level designs:</li>
-                            <ul>
-                                <li>Worked on design, planning, implementing and testing a vast majority of the levels</li>
-                                <li>Made the concept designs for the main character models, enemies and environment.</li>
-                            </ul>
-                        <li>Programmed the obstacle mechanics for each level and helped out with the player mechanics</li>
-                     </ul>
-                visibility: true
+              # - project_thumbnail: tsh.png
+              #   project_title: Team Swap Heroes
+              #   project_description: A teamwork-based puzzle game made for Minijam 48.
+              #   project_url: https://horsehead.itch.io/team-swap-heroes 
+              #   blog_url: /blog/team-swap-heroes
+              #   date: 31st January, 2022
+              #   engine: unity.png
+              #   language: cs.png
+              #   published: itch.png
+              #   role: Programmer & Designer
+              #   # team: http://gamedev.amy-portfolio.com/blog/authors/teamhorsehead#/
+              #   dev: Team Horsehead
+              #   bp: <ul> 
+              #           <li>In charge of the main concepting and level designs:</li>
+              #               <ul>
+              #                   <li>Worked on design, planning, implementing and testing a vast majority of the levels</li>
+              #                   <li>Made the concept designs for the main character models, enemies and environment.</li>
+              #               </ul>
+              #           <li>Programmed the obstacle mechanics for each level and helped out with the player mechanics</li>
+              #        </ul>
+              #   visibility: true
               # - project_thumbnail: BeatCity.png
               #   project_title: Beat City
               #   project_description: A music based platformer game, developed by myself to experiment with music manipulation.
@@ -193,15 +193,15 @@ author_project_details:
               #               </ul>
               #        </ul>
               #   visibility: false
-              - project_thumbnail: pop.png
-                project_title: Poppin Hoppin Unlockin
-                project_description: A fantasy-platformer game, developed for a University Gamejam by a group which I lead.
-                project_url: https://amy-elliott.itch.io/poppin-hoppin-unlockin
-                blog_url: /blog/pop-hop-unlock
-                date: 31st January, 2022
-                engine: unity.png
-                language: cs.png
-                visibility: true
+              # - project_thumbnail: pop.png
+              #   project_title: Poppin Hoppin Unlockin
+              #   project_description: A fantasy-platformer game, developed for a University Gamejam by a group which I lead.
+              #   project_url: https://amy-elliott.itch.io/poppin-hoppin-unlockin
+              #   blog_url: /blog/pop-hop-unlock
+              #   date: 31st January, 2022
+              #   engine: unity.png
+              #   language: cs.png
+              #   visibility: true
 
 # Professional Games
 # author_professional_games:   
