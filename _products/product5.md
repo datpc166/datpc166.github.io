@@ -1,7 +1,7 @@
 ---
 identifier: jekyll-starry-night-5
 name: John Doe Mug
-price: 10
+price: 0
 image: /assets/img/products/product2.jpg
 ---
 
