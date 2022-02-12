@@ -44,8 +44,21 @@
     overflow-x: auto;
 }
 
-// card-body
+// back to top button
 
-.card-body {
-    
+.back-to-top {
+    display: block;
+    font-size: 3em;
+    position: fixed;
+    bottom: 0.1em;
+    right: 0.1em;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    z-index: 1;
 }
+
+.back-to-top:after {
+	padding: 0.3em;
+	content: "\f106";
+}
+
