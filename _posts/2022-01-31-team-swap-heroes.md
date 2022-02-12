@@ -11,6 +11,7 @@ thumbnail: /assets/img/posts/TeamSwapHeroes/cover.png
 keywords: villagesim, village, sim, indie
 permalink: /blog/team-swap-heroes/
 usemathjax: true
+published: false
 ---
 
 <hr>

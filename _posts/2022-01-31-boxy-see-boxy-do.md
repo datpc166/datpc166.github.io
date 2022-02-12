@@ -11,6 +11,7 @@ thumbnail: /assets/img/posts/BoxySee/cover.png
 keywords: teamwork, gamejam, puzzles, action
 permalink: /blog/boxy-see-boxy-do/
 usemathjax: true
+published: false
 ---
 
 <hr>

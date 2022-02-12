@@ -11,6 +11,7 @@ thumbnail: /assets/img/posts/SomewhereInBerkshire/cover.png
 keywords: dragonsitter, gamejam, here
 permalink: /blog/somewhere-in-berkshire/
 usemathjax: true
+published: false
 ---
 
 <hr>

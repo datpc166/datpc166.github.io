@@ -11,6 +11,7 @@ thumbnail: /assets/img/posts/ToyTactics/cover.png
 keywords: tactics, puzzles, gamejam, artificialintelligence
 permalink: /blog/toy-tactics/
 usemathjax: true
+published: false
 ---
 
 <hr>

@@ -11,6 +11,7 @@ thumbnail: /assets/img/posts/VillageSim/villagesimulator.png
 keywords: villagesim, village, sim, indie
 permalink: /blog/village-simulator/
 usemathjax: true
+published: false
 ---
 
 <hr>

@@ -11,6 +11,7 @@ thumbnail: /assets/img/posts/OnlyOneRecruit/cover.png
 keywords: teamwork, gamejam, retro, puzzles
 permalink: /blog/only-one-recruit/
 usemathjax: true
+published: false
 ---
 
 <hr>

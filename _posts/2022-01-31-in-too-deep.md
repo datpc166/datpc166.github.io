@@ -11,6 +11,7 @@ thumbnail: /assets/img/posts/InTooDeep/cover.png
 keywords: mining, gamejam, tycoon, survival
 permalink: /blog/in-too-deep/
 usemathjax: true
+published: false
 ---
 
 <hr>

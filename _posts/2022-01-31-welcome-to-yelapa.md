@@ -11,6 +11,7 @@ thumbnail: /assets/img/posts/WelcomeToYelapa/welcometoyelapa.PNG
 keywords: csharp, game design, design, level design, ui, ux, game jam
 permalink: /blog/welcome-to-yelapa/
 usemathjax: true
+published: false
 ---
 
 <hr>

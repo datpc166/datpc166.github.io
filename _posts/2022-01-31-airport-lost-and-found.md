@@ -11,6 +11,7 @@ thumbnail: /assets/img/posts/Airport/cover.png
 keywords: crazytaxi, gamejam, ragdoll, timerace
 permalink: /blog/airport-lost-and-found/
 usemathjax: true
+published: false
 ---
 
 <hr>

@@ -11,6 +11,7 @@ thumbnail: /assets/img/posts/CapSays/cover.png
 keywords: educational, gamejam, casual, arcade
 permalink: /blog/captain-says/
 usemathjax: true
+published: false
 ---
 
 <hr>

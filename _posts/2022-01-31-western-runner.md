@@ -11,7 +11,9 @@ thumbnail: /assets/img/posts/WesternRunner/cover.png
 keywords: endless-runner, casual, western
 permalink: /blog/western-runner/
 usemathjax: true
+published: false
 ---
+
 
 <hr>
 <!--- ------------------ -->

@@ -11,6 +11,7 @@ thumbnail: /assets/img/posts/PopHop/cover.png
 keywords: platformer, gamejam, fantasy, puzzles
 permalink: /blog/poppin-hoppin-unlockin/
 usemathjax: true
+published: false
 ---
 
 <hr>

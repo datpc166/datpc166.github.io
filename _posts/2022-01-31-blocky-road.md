@@ -11,6 +11,7 @@ thumbnail: /assets/img/posts/BlockyRoad/cover.png
 keywords: hypercasual, gamejam, teamwork, puzzles
 permalink: /blog/blocky-road/
 usemathjax: true
+published: false
 ---
 
 <hr>
