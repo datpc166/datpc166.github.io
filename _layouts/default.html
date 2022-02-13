@@ -23,8 +23,10 @@ layout: compress
             nanobar.go(100);
         </script>
 
-<div hidden id="snipcart" data-api-key="Y2E5ZDMzZWEtYjUyOC00NGVmLTgxMjctNWE0ZmVjZTU5YmEzNjM3ODAyNjkxMjAyNDI1MTA0"></div>
-  <script async src="https://cdn.snipcart.com/themes/v3.3.1/default/snipcart.js"></script>
+<!-- <div hidden id="snipcart" data-api-key="Y2I1NTAyNWYtMTNkMy00ODg0LWE4NDItNTZhYzUxNzJkZTI5NjM3MDI4NTUzNzYyMjQ4NzU0"></div>
+<script src="https://cdn.snipcart.com/themes/v3.0.0-beta.3/default/snipcart.js" defer></script> -->
+<script async src="https://cdn.snipcart.com/themes/v3.3.1/default/snipcart.js"></script>
+<div id="snipcart" data-api-key="NDk5OWI1ZmYtZjE5Ni00YTFiLTk2NDEtZWMzNmVmYTZiYjU1NjM3ODAyNjkxMjAyNDI1MTA0" hidden></div>
    <script src="{{site.url}}{{site.baseurl}}/assets/js/mode-switcher.js"></script>
    <script>
     if (window.netlifyIdentity) {
@@ -36,6 +38,15 @@ layout: compress
         }
       });
     }
+  </script>
+  <script>
+    document.addEventListener('snipcart.ready',() => {
+      Snipcart.api.session.setLanguage('en',{
+        actions: {
+          continue_shopping: 'Go back to store',
+        }
+      });
+    });
   </script>
 </body>
 </html>

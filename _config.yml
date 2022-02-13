@@ -208,69 +208,69 @@ author_project_details:
 
 # Personal Games
 author_personal_games:
-              - game_thumbnail: /gamelib/toytactics.png
-                game_title: Toy Tactics
-                game_release: 4th October, 2021             
-                game_blog: /blog/toy-tactics/
-                tag1: Tactics
-                tag2: Puzzles
-                tag3: Artifical Intelligence
-                browser_playable: true
-                visibility: true 
-              - game_thumbnail: /gamelib/tsh.png
-                game_title: Team Swap Heroes
-                game_release: 24th Febuary, 2020             
-                game_blog: /blog/team-swap-heroes/
-                tag1: Teamwork
-                tag2: Puzzles
-                tag3: Time Race
-                browser_playable: true
-                visibility: true  
-              - game_thumbnail: /gamelib/airportgame.png
-                game_title: Airport - Lost & Found
-                game_release: 31st January, 2021             
-                game_blog: /blog/airport-lost-and-found/
-                tag1: Crazy Taxi
-                tag2: Ragdoll
-                tag3: Time Race
-                browser_playable: true
-                visibility: true 
-              - game_thumbnail: /gamelib/intoodeep.png
-                game_title: In Too Deep
-                game_release: 27th April, 2021             
-                game_blog: /blog/in-too-deep/
-                tag1: Mining
-                tag2: Tycoon
-                tag3: Survival
-                browser_playable: true
-                visibility: true 
-              - game_thumbnail: /gamelib/blocky.png
-                game_title: Blocky Road
-                game_release: 28th October, 2020            
-                game_blog: /blog/blocky-road/
-                tag1: Hyper Casual
-                tag2: Teamwork
-                tag3: Puzzles
-                browser_playable: true
-                visibility: true
-              - game_thumbnail: /gamelib/pop.png
-                game_title: Poppin Hoppin Unlockin
-                game_release: 12th November, 2020            
-                game_blog: /blog/poppin-hoppin-unlockin/
-                tag1: Platformer
-                tag2: Fantasy
-                tag3: Puzzles
-                browser_playable: true
-                visibility: true 
-              - game_thumbnail: /gamelib/beatcity.png
-                game_title: Beat City
-                game_release: 20th Feburary, 2020            
-                game_blog: /blog/beat-city/
-                tag1: Music & Rhythm
-                tag2: Cyberpunk
-                tag3: Competitive
-                browser_playable: false
-                visibility: true 
+              # - game_thumbnail: /gamelib/toytactics.png
+              #   game_title: Toy Tactics
+              #   game_release: 4th October, 2021             
+              #   game_blog: /blog/toy-tactics/
+              #   tag1: Tactics
+              #   tag2: Puzzles
+              #   tag3: Artifical Intelligence
+              #   browser_playable: true
+              #   visibility: true 
+              # - game_thumbnail: /gamelib/tsh.png
+              #   game_title: Team Swap Heroes
+              #   game_release: 24th Febuary, 2020             
+              #   game_blog: /blog/team-swap-heroes/
+              #   tag1: Teamwork
+              #   tag2: Puzzles
+              #   tag3: Time Race
+              #   browser_playable: true
+              #   visibility: true  
+              # - game_thumbnail: /gamelib/airportgame.png
+              #   game_title: Airport - Lost & Found
+              #   game_release: 31st January, 2021             
+              #   game_blog: /blog/airport-lost-and-found/
+              #   tag1: Crazy Taxi
+              #   tag2: Ragdoll
+              #   tag3: Time Race
+              #   browser_playable: true
+              #   visibility: true 
+              # - game_thumbnail: /gamelib/intoodeep.png
+              #   game_title: In Too Deep
+              #   game_release: 27th April, 2021             
+              #   game_blog: /blog/in-too-deep/
+              #   tag1: Mining
+              #   tag2: Tycoon
+              #   tag3: Survival
+              #   browser_playable: true
+              #   visibility: true 
+              # - game_thumbnail: /gamelib/blocky.png
+              #   game_title: Blocky Road
+              #   game_release: 28th October, 2020            
+              #   game_blog: /blog/blocky-road/
+              #   tag1: Hyper Casual
+              #   tag2: Teamwork
+              #   tag3: Puzzles
+              #   browser_playable: true
+              #   visibility: true
+              # - game_thumbnail: /gamelib/pop.png
+              #   game_title: Poppin Hoppin Unlockin
+              #   game_release: 12th November, 2020            
+              #   game_blog: /blog/poppin-hoppin-unlockin/
+              #   tag1: Platformer
+              #   tag2: Fantasy
+              #   tag3: Puzzles
+              #   browser_playable: true
+              #   visibility: true 
+              # - game_thumbnail: /gamelib/beatcity.png
+              #   game_title: Beat City
+              #   game_release: 20th Feburary, 2020            
+              #   game_blog: /blog/beat-city/
+              #   tag1: Music & Rhythm
+              #   tag2: Cyberpunk
+              #   tag3: Competitive
+              #   browser_playable: false
+              #   visibility: true 
               # - game_thumbnail: /gamelib/ordos.png
               #   game_title: Ordos - Order & Chaos
               #   game_release: 12th May, 2020            
