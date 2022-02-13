@@ -2,8 +2,6 @@
 identifier: kali-linux-tutorial-for-beginners
 name: Kali Linux Tutorial For Beginners
 price: 0
-categories: Courses
-content: -#1 Ranking Kali Linux Tutorial! Learn from the pros how to use Kali Linux easily and quickly.Learn Kali Linux
 guid: a106c282-b078-4a3f-987b-94457f241809
 image: /assets/img/products/product3.jpg
 ---
