@@ -985,12 +985,13 @@ header {
     -moz-osx-font-smoothing: grayscale;
     color: coral;
 }
-
-.product{
-    width: 50%;
-    display: flex;
-    float: left;
-    min-height: 600px;
+@media (min-width: 992px){
+    .product{
+        width: 50%;
+        display: flex;
+        float: left;
+        min-height: 600px;
+    }
 }
 
 
