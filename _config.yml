@@ -14,6 +14,10 @@ urls:
       url: /about
     - text: Blogs
       url: /blog
+    - text: Gallery
+      url: /gallery
+    - text: Library
+      url: /library
     - text: Shop
       url: /shop
     - text: CV
@@ -371,6 +375,52 @@ author_personal_games:
                 browser_playable: true
                 visibility: true
 
+book_cat1:
+              - book_thumbnail: /gamelib/onlyonerecruit.png
+                book_title: Only One Recruit
+                book_release: 4th August, 2019           
+                book_blog: /blog/only-one-recruit/
+                tag1: Teamwork
+                tag2: Puzzles
+                tag3: Retro
+                browser_playable: true
+                visibility: true
+              - book_thumbnail: /gamelib/onlyonerecruit.png
+                book_title: Only One Recruit
+                book_release: 4th August, 2019           
+                book_blog: /blog/only-one-recruit/
+                tag1: Teamwork
+                tag2: Puzzles
+                tag3: Retro
+                browser_playable: true
+                visibility: true
+              - book_thumbnail: /gamelib/onlyonerecruit.png
+                book_title: Only One Recruit
+                book_release: 4th August, 2019           
+                book_blog: /blog/only-one-recruit/
+                tag1: Teamwork
+                tag2: Puzzles
+                tag3: Retro
+                browser_playable: true
+                visibility: true
+              - book_thumbnail: /gamelib/onlyonerecruit.png
+                book_title: Only One Recruit
+                book_release: 4th August, 2019           
+                book_blog: /blog/only-one-recruit/
+                tag1: Teamwork
+                tag2: Puzzles
+                tag3: Retro
+                browser_playable: true
+                visibility: true
+              - book_thumbnail: /gamelib/onlyonerecruit.png
+                book_title: Only One Recruit
+                book_release: 4th August, 2019           
+                book_blog: /blog/only-one-recruit/
+                tag1: Teamwork
+                tag2: Puzzles
+                tag3: Retro
+                browser_playable: true
+                visibility: true
 # social links
 twitter_username: datpc_
 github_username:  datpc166

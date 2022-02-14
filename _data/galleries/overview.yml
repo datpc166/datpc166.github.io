@@ -1,16 +1,24 @@
+# -
+#   title: Artwork
+#   directory: artwork
+#   preview:
+#     filename: 1.png
+#     #original: 1-thumbnail.jpg
+#     original: 1.png
+#     sizes:
+#     - 1.png
+#     #- 1-thumbnail.jpg
+#     #thumbnail: 1-thumbnail.jpg
+#     thumbnail: 1.png
+
 -
-  title: Artwork
-  directory: artwork
+  title: Mountains
+  directory: mountains
   preview:
-    filename: 1.png
-    #original: 1-thumbnail.jpg
-    original: 1.png
+    filename: 1.jpg
+    original: 1-thumbnail.jpg
     sizes:
-    - 1.png
-    #- 1-thumbnail.jpg
-    #thumbnail: 1-thumbnail.jpg
-    thumbnail: 1.png
+    - 1-thumbnail.jpg
+    thumbnail: 1-thumbnail.jpg
 
-
-
-
+ 
