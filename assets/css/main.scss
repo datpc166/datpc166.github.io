@@ -47,8 +47,8 @@
 // back to top button
 
 .back-to-top {
+    padding: 3px !important;
     display: block;
-    font-size: 3em;
     position: fixed;
     bottom: 0.1em;
     right: 0.1em;
@@ -58,8 +58,12 @@
 }
 
 .back-to-top:after {
-	padding: 0.3em;
-	content: "\f106";
+    padding: 0.3em 0.35em;
+    content: "\f106";
+    font-size: 25px;
+    background-color: #431e1a;
+    border-radius: 7px;
+    opacity: 0.7;
 }
 
 
@@ -67,6 +71,7 @@
 
 button.btn.btn-lg.btn-dark.header__checkout.snipcart-checkout {
     width: 4em;
+    margin-top: 30px;
 }
 
 // about-me body

@@ -17,11 +17,12 @@ urls:
     - text: Gallery
       url: /gallery
     - text: Library
-      url: /library
+      url: /library 
     - text: Shop
       url: /shop
     - text: CV
       url : /cv
+
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
