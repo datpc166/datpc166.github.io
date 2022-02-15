@@ -1,7 +1,7 @@
 ---
 identifier: ethical-hacking-and-network-security-from-scratch-2021
 name: Ethical Hacking and Network Security from scratch 2021
-price: 0
+price: 2
 guid: 176c5e3f-dcf1-458b-929d-3dcefda128e1
 image: /assets/img/products/product1.jpg
 ---

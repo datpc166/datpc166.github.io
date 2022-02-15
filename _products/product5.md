@@ -1,7 +1,7 @@
 ---
 identifier: lap-trinh-fullstack-angular-php-mysql
 name: Lap Trinh FULLSTACK voi Angular - PHP - MYSQL
-price: 0
+price: 2
 guid: a8138dc2-ea3b-4de2-b932-a8d6bb9768d3
 image: /assets/img/products/product5.jpg
 ---
