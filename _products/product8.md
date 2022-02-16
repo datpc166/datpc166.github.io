@@ -6,4 +6,4 @@ guid: 7e7fa8e1-796b-4d1c-bfa4-d769e8335c2c
 image: "/assets/img/products/product8.jpg"
 ---
 
-This course helps you master skills, methods, effects,... cutting Web from design files to help master knowledge of CSS, HTML, understand Bootstrap and Web cutting skills with Illustrate, Pix and handle professional website content in just 5 days
+This course helps you master skills, methods, effects,... cutting Web from design files to help master knowledge of CSS, HTML, understand Bootstrap and Web cutting skills
