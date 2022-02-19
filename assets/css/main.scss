@@ -74,6 +74,10 @@ button.btn.btn-lg.btn-dark.header__checkout.snipcart-checkout {
     margin-top: 30px;
 }
 
+#snipcart-floating-cart {
+    z-index: 0 !important;
+}
+
 // about-me body
 
 .about-me-body {

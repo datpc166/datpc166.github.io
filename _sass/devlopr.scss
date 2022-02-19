@@ -587,7 +587,7 @@ header {
     // padding-right: 100px;
     background-color: var(--main-background-color) !important;
     box-shadow: #000 0px 0px 8px;
-    z-index: 5000;
+    // z-index: 1000;
 }
 
 #navbar-hamburger, #navbar-search{
@@ -1539,7 +1539,7 @@ footer {
             #topNav {
                 padding-left:  0px;
                 padding-right: 0px;
-                z-index: 5000;
+                // z-index: 1000;
             }
 
             .navbar-brand {
@@ -1624,7 +1624,7 @@ footer {
       #topNav {
           padding-left:  0px;
           padding-right: 0px;
-          z-index: 5000;
+        //   z-index: 1000;
       }
 
       .navbar-brand {
@@ -1673,7 +1673,7 @@ footer {
         #topNav {
             padding-left:  0px;
             padding-right: 0px;
-            z-index: 5000;
+            // z-index: 1000;
         }
 
           #mc-embedded-subscribe-form {
