@@ -5,10 +5,8 @@ layout: default
 <div class="row" id="blog-post-container">
   <div class="col-lg-8 offset-md-2">
      {%- include blog_post_article.html -%}
+     <div class="fb-comments" data-href="https://nguyenquocdat.info/" data-numposts="5" width="100%"></div>
   </div>
-  {%- if site.gitment.username -%}
-      {%- include extensions/comments/gitment.html -%}
-  {%- endif -%}
 </div>
 
 

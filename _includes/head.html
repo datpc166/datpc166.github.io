@@ -55,6 +55,27 @@
   <meta name="twitter:site" content="@{{ site.share.twitter_username }}" />
   <meta name="twitter:creator" content="@{{ site.share.twitter_username }}" />
 
+  <!-- Begin Facebook comment system -->
+  <meta property="og:type" content="website" />
+<meta property="og:url" content="https://nguyenquocdat.info/blog/" />
+<meta property="og:title" content="Kiến thức thiết kế website" />
+<meta property="og:description" content="Hãy cùng nhau chia sẻ kiến thức website" />
+<meta property="og:image" content="URL_IMAGE" />
+<meta property="og:locale" content="vi_VN" />
+<meta property="fb:app_id" content="467127411724383" /> 
+
+<script>
+  (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.8&appId=1632614030377920";
+      fjs.parentNode.insertBefore(js, fjs);
+  }(document, "script", "facebook-jssdk"));
+</script>
+<!-- End Fb comment system -->
+
   {% if page.title %}
   <meta name="twitter:title" content="{{ page.title }}" />
   {% else %}
