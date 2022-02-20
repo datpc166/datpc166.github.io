@@ -20,6 +20,8 @@ urls:
       url: /library 
     - text: Shop
       url: /shop
+    - text: Contact
+      url: /contact
     - text: CV
       url : /cv
 
