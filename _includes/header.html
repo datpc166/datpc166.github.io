@@ -45,6 +45,17 @@
             <i class="fa fa-search search-icon" aria-hidden="true"></i>
           </a>
         </li>
+
+        <li>
+            {%- assign name = 'translate_langs' -%}
+            {%- include functions.html func='get_value' -%}
+            {%- assign translate_langs = return -%}
+            {%- if translate_langs.size > 0 -%}
+              <span class="page-link">
+                  {%- include google-translate.html -%}
+              </span>
+            {%- endif -%}
+        </li>
       </ul>
     </nav>
     <div id="progress-bar"></div>

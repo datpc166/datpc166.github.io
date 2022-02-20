@@ -6,6 +6,9 @@ layout: default
   <div class="col-lg-8 offset-md-2">
      {%- include blog_post_article.html -%}
   </div>
+  {%- if site.gitment.username -%}
+      {%- include extensions/comments/gitment.html -%}
+  {%- endif -%}
 </div>
 
 

@@ -2,25 +2,26 @@
 # langs refer to https://cloud.google.com/translate/docs/languages
 
 - lang: en
-  img: https://www.countryflags.io/us/flat/64.png
+  img: ../assets/img/country-flags/united-kingdom.png
   text: English
 
+- lang: vi
+  img: ../assets/img/country-flags/vietnam.png
+  text: Vietnam
+
 - lang: fr
-  img: https://www.countryflags.io/fr/flat/64.png
+  img: ../assets/img/country-flags/france.png
   text: Franch
 
 - lang: zh-CN
-  img: https://www.countryflags.io/cn/flat/64.png
+  img: ../assets/img/country-flags/china.png
   text: Chinese(Simple)
 
 - lang: ja
-  img: https://www.countryflags.io/jp/flat/64.png
+  img: ../assets/img/country-flags/japan.png
   text: Japan
 
 - lang: ko
-  img: https://www.countryflags.io/kr/flat/64.png
+  img: ../assets/img/country-flags/south-korea.png
   text: Korean
 
-- lang: ru
-  img: https://www.countryflags.io/ru/flat/64.png
-  text: Russia

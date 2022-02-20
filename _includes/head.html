@@ -11,7 +11,8 @@
   {% endif %}
    <meta name="keywords" content="{% if page.title %}{{ page.title }}, {{ site.title }}, {% for categ in page.categories %}{{ categ }}{% if forloop.last == false %}, {% endif %}{% endfor %}{% else %}{{ site.title }}, {% for category in site.categories %}{% capture categories_slug %}{{ category | first }}{% endcapture %}{% for categ in categories_slug %}{{ categ }}{% endfor %}{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %},{{ page.keywords | escape }}"/>
    
-   <!-- <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c"></meta> -->
+   <!-- GG Translate -->
+   <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c"></meta>
   <link
     rel="alternate"
     type="application/rss+xml" 
@@ -82,7 +83,6 @@
   />
 
 
-
   <link
     rel="stylesheet"
     href="{{site.url}}{{site.baseurl}}/assets/bower_components/bootstrap/dist/css/bootstrap.min.css"
@@ -112,6 +112,11 @@
 <link 
   rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.3.1/default/snipcart.css" 
 />
+
+
+<!-- gitment comment system -->
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 
   <!-- Favicon -->
   <script>
