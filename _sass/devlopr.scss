@@ -663,7 +663,10 @@ header {
     border-radius: .25rem;
     max-width: 88% !important;
     height: auto;
-    margin: 15px;
+    // margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .author_bio{
@@ -1198,10 +1201,10 @@ header {
 
 /* Gallery */
 /* image-gallery */
-#imageGallery{
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
+// #imageGallery{
+//     margin-top: 30px;
+//     margin-bottom: 30px;
+// }
 
 .lg-progress-bar .lg-progress {
     background-color: #db980f !important;
