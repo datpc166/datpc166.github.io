@@ -59,7 +59,7 @@
       z-index: 990;
       margin-top: 0px;
       padding: 0;
-      background-color: #0bceaf;
+      background-color: #000;
       transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg) scale(1);
       -o-transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg) scale(1);
       -ms-transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg) scale(1);
@@ -198,7 +198,7 @@
       z-index: 990;
       margin-top: 0px;
       padding: 0;
-      background-color: #0bceaf;
+      background-color: #000;
       transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg) scale(1);
       -o-transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg) scale(1);
       -ms-transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg) scale(1);
