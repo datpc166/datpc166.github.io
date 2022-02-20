@@ -22,8 +22,8 @@ urls:
       url: /portfolio
     - text: Contact
       url: /contact
-    - text: CV
-      url : /cv
+    # - text: CV
+    #   url : /cv
 
 
 
