@@ -100,8 +100,10 @@ button.buy-button.snipcart-add-item.btn-lg.btn-warning {
     font-size: 25px;
 }
 
-// Fix color Facebook comment system
+div.theChampCommentingTabs ul li{
+    color:white!important
+}
 
-._56q9 {
+li.theChampSelectedTab {
     color: #fff !important;
 }
