@@ -10,18 +10,18 @@
   text: Vietnam
 
 - lang: fr
-  img: ../assets/img/country-flags/france.png
+  img: {{site.url}}{{site.baseurl}}/assets/img/country-flags/france.png
   text: Franch
 
 - lang: zh-CN
-  img: ../assets/img/country-flags/china.png
+  img: {{site.url}}{{site.baseurl}}/assets/img/country-flags/china.png
   text: Chinese(Simple)
 
 - lang: ja
-  img: ../assets/img/country-flags/japan.png
+  img: {{site.url}}{{site.baseurl}}/assets/img/country-flags/japan.png
   text: Japan
 
 - lang: ko
-  img: ../assets/img/country-flags/south-korea.png
+  img: {{site.url}}{{site.baseurl}}/assets/img/country-flags/south-korea.png
   text: Korean
 
