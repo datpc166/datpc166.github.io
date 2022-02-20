@@ -2,26 +2,26 @@
 # langs refer to https://cloud.google.com/translate/docs/languages
 
 - lang: en
-  img: ../assets/img/country-flags/united-kingdom.png
+  img: "https://user-images.githubusercontent.com/98354414/154859308-749ad8b5-8727-48ec-b1e2-c871f0d87b37.png"
   text: English
 
 - lang: vi
-  img: ../assets/img/country-flags/vietnam.png
+  img: "https://user-images.githubusercontent.com/98354414/154859275-bdbe0f32-ea36-47ff-8332-89c1706365d3.png"
   text: Vietnam
 
 - lang: fr
-  img: {{site.url}}{{site.baseurl}}/assets/img/country-flags/france.png
+  img: "https://user-images.githubusercontent.com/98354414/154859371-add0eea8-b342-446e-8f18-5f5636ee2de1.png"
   text: Franch
 
 - lang: zh-CN
-  img: {{site.url}}{{site.baseurl}}/assets/img/country-flags/china.png
+  img: "https://user-images.githubusercontent.com/98354414/154859330-d327395b-3c5b-445b-af8a-fb2f9d5494a7.png"
   text: Chinese(Simple)
 
 - lang: ja
-  img: {{site.url}}{{site.baseurl}}/assets/img/country-flags/japan.png
+  img: "https://user-images.githubusercontent.com/98354414/154859358-d81b5f4e-732a-4397-baa5-2f2ea609442a.png"
   text: Japan
 
 - lang: ko
-  img: {{site.url}}{{site.baseurl}}/assets/img/country-flags/south-korea.png
+  img: "https://user-images.githubusercontent.com/98354414/154859345-9ca390f4-7a26-4c65-b91b-cec12d7d0de1.png"
   text: Korean
 
