@@ -8,19 +8,19 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 
 urls:
-    - text: Home
+    - text: Trang chủ
       url: /
-    - text: About
+    - text: Về tôi
       url: /about
     - text: Blogs
       url: /blog
-    - text: Gallery
+    - text: Bộ sưu tập
       url: /gallery
     - text: Shop
       url: /shop
     - text: Portfolio
       url: /portfolio
-    - text: Contact
+    - text: Liên hệ
       url: /contact
     # - text: CV
     #   url : /cv
@@ -30,8 +30,8 @@ urls:
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
-author: Nguyen Quoc Dat
-author_bio: Hi, my name is Nguyen Quoc Dat. I love coding and investing :D
+author: Nguyễn Quốc Đạt
+author_bio: Tôi thích lập trình và đầu tư :D
 author_email: "nqdat160602@gmail.com"
 author_location: Vietnam
 author_website_url: "https://nguyenquocdat.info"
@@ -45,24 +45,24 @@ author_work_experiences:
               company_url: http://nguyenquocdat.info/
               work_duration: Dec 2021 - Present
               designation: Freelance
-              description: As a sophomore, I have been learning about the bug bounty program and have learned a lot from it. It's very interesting!
+              description: Ngoài những thời gian học trên trường, tôi tìm hiểu về Bug Bounty và đã học hỏi rất nhiều từ đó. Nó rất thú vị!
               visibility: true
 
 # Education
 author_education_details:
               - college_logo: ptit.png
-                college_name: PTIT - Hoc Vien Cong Nghe Buu Chinh Vien Thong
+                college_name: PTIT - Học Viện Công Nghệ Bưu Chính Viễn Thông
                 college_url: https://portal.ptit.edu.vn/
-                study_duration: Oct 2020 - Present
-                college_degree: Information Security major
-                description: Bachelor of Technology
+                study_duration: 10/2020 - Present
+                college_degree: Bachelor of Technology
+                description: chuyên ngành An Toàn Thông Tin
                 college_url: https://portal.ptit.edu.vn/
                 visibility: true
               - college_logo: thpt.png
-                college_name: THPT Thuong Tin
+                college_name: THPT Thường Tín
                 college_url: https://www.facebook.com/Thuongtintrongtoi/
-                study_duration: Aug 2017 - Jun 2020
-                college_degree: High School Diploma
+                study_duration: 8/2017 - 8/2020
+                college_degree: Tốt nghiệp Trung học phổ thông
                 college_url: https://www.facebook.com/Thuongtintrongtoi/
                 visibility: true
 

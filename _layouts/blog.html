@@ -16,12 +16,20 @@ layout: default
                         <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" style="padding: 0px">
                             <h4 cla ss="card-title" style="word-wrap: normal">{{ post.title }}</h4>
                         </a>
-                        <h6 class="card-subtitle mb-2" style="{{post.color}}; text-align: center; border-radius: 50px 0px; margin: 5px; word-wrap: normal">{{ post.type }}</h6>
+                        <h6 class="card-subtitle mb-2" style="{{post.color}}; text-align:center;border-radius:50px 0px; margin:5px; word-wrap:normal">{{ post.type }}</h6>
 
                         <hr>
                         <h6 class="card-subtitle mb-2 text-muted" style="word-wrap: normal">{{ post.date | date: "%b %-d, %Y" }}</h6>
                         <p class="card-text" style="word-wrap: normal">{{ post.summary }} </p>
 
+                        <div class="post-blog-types" style="vertical-align:bottom; text-align:center">
+                            {% if post %} {% assign blog-types = post.blog-types %} {% else %} {%
+                            assign blog-types = page.blog-types %} {% endif %} {% for
+                            blog-type in blog-types %}
+                            <a href="{{site.baseurl}}/blog/blog-types/{{blog-type|slugize}}" class="btn btn-col" style="font-size: 13px; padding: .02rem .5rem; display:inline">{{blog-type | capitalize}}</a>
+                            {% unless forloop.last %}&nbsp;{% endunless %} {% endfor %}
+                        </div>
+                        
                         <div class="post-categories" style="vertical-align:bottom; text-align:center">
                             {% if post %} {% assign categories = post.categories %} {% else %} {%
                             assign categories = page.categories %} {% endif %} {% for
@@ -48,7 +56,7 @@ layout: default
                 <li class="pagination-link disabled"><span aria-hidden="true">&laquo;</span></li>
                 {% endif %}
 
-                <li class="pagination-link"><a href="/blog">First</a></li>
+                <li class="pagination-link"><a href="/blog">Đầu</a></li>
 
                 {% for page in (1..paginator.total_pages) %}
                 {% if page == paginator.page %}
@@ -60,7 +68,7 @@ layout: default
                 {% endif %}
                 {% endfor %}
 
-                <li class="pagination-link"><a href="/blog/page/{{ paginator.total_pages }}/#/">Last</a></li>
+                <li class="pagination-link"><a href="/blog/page/{{ paginator.total_pages }}/#/">Cuối</a></li>
 
                 {% if paginator.next_page %}
                 <li class="pagination-link"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a></li>

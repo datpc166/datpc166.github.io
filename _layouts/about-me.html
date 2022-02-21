@@ -74,7 +74,7 @@ layout: default
         </div>
 
         <div id="author_skills" class="card">
-            <h1 class="card-title">Skills</h1>
+            <h1 class="card-title">Kỹ năng</h1>
             <div class="row">
                 <div class="column-two" style="max-width: 100%">
                     <div class="wrapper center-block">
@@ -83,7 +83,7 @@ layout: default
                                 <div class="panel-heading active" role="tab" id="headingOne">
                                     <h4 class="panel-title">
                                         <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseLang" aria-expanded="true" aria-controls="collapseLang" title="Click to expand/minimize">
-                                            <h4 style="word-wrap: normal">Languages</h4>
+                                            <h4 style="word-wrap: normal">Ngôn ngữ lập trình</h4>
                                         </a>
                                     </h4>
                                 </div>
@@ -143,7 +143,7 @@ layout: default
                         <div class="panel-heading active" role="tab" id="headingOne">
                             <h4 class="panel-title">
                                 <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseProj" aria-expanded="false" aria-controls="collapseProj" title="Click to expand/minimize">
-                                    <h4 style="word-wrap: normal">Project Management</h4>
+                                    <h4 style="word-wrap: normal">Quản lý dự án</h4>
                                 </a>
                             </h4>
                         </div>
@@ -182,14 +182,14 @@ layout: default
                         <div class="panel-heading active" role="tab" id="headingOne">
                             <h4 class="panel-title">
                                 <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSoftware" aria-expanded="false" aria-controls="collapseSoftware" title="Click to expand/minimize">
-                                    <h4 style="word-wrap: normal">Software</h4>
+                                    <h4 style="word-wrap: normal">Phần mềm</h4>
                                 </a>
                             </h4>
                         </div>
                         <div id="collapseSoftware" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                             <div class="panel-body">
                                 <div class="card">
-                                    <h5 align="left" style="padding-bottom: 20px">Integrated Development Environments:</h5>
+                                    <h5 align="left" style="padding-bottom: 20px">Môi trường phát triển tích hợp:</h5>
                                     <div class="row">
                                         <div class="column-two">
                                             <img src="/assets/img/posts/icons/thumbnail/64pxSkills/visualstudio.png"><p>Visual Studio</p>
@@ -199,7 +199,7 @@ layout: default
                                         </div>
                                     </div>
                                     <br />
-                                    <h5 align="left" style="padding-bottom: 20px">Art/Graphics Software:</h5>
+                                    <h5 align="left" style="padding-bottom: 20px">Phầm mềm đồ hoạ:</h5>
                                     <div class="row">
                                         <div class="column-three">
                                             <img src="/assets/img/posts/icons/thumbnail/64pxSkills/photoshop.png"><p>Photoshop</p>
@@ -212,7 +212,7 @@ layout: default
                                         </div>
                                     </div>
                                     <br />
-                                    <h5 align="left" style="padding-bottom: 20px">Video Editing Software:</h5>
+                                    <h5 align="left" style="padding-bottom: 20px">Phần mềm chỉnh sửa video:</h5>
                                     <div class="row">
                                         <div class="column-two">
                                             <img src="/assets/img/posts/icons/thumbnail/64pxSkills/premiere.png"><p>Adobe Premiere Pro</p>
@@ -222,7 +222,7 @@ layout: default
                                         </div>
                                     </div>
                                     <br />
-                                    <h5 align="left" style="padding-bottom: 20px">3D Modelling Software:</h5>
+                                    <h5 align="left" style="padding-bottom: 20px">Phần mềm tạo mô hình 3D:</h5>
                                     <div class="row">
                                         <div class="column-three">
                                             <img src="/assets/img/posts/icons/thumbnail/64pxSkills/maya.png"><p>Maya</p>
@@ -235,7 +235,7 @@ layout: default
                                         </div>
                                     </div>
                                     <br />
-                                    <h5 align="left" style="padding-bottom: 20px">Music Software:</h5>
+                                    <h5 align="left" style="padding-bottom: 20px">Phần mềm âm nhạc:</h5>
                                     <div class="row">
                                         <div class="column-two">
                                             <img src="/assets/img/posts/icons/thumbnail/64pxSkills/fmod.png"><p>FMOD Studio</p>
@@ -255,7 +255,7 @@ layout: default
         <!-- Coding Activities wakatime.com -->
         {% if site.wakatime_username %}
             <div class="card">
-            <h1>Coding Activity</h1>
+            <h1>Hoạt động Coding</h1>
 
             {%- include coding_activity.html -%}
         </div>
@@ -271,12 +271,12 @@ layout: default
     <div class="col-lg-7">
         {% if site.author_bio %}
         <div class="card">
-            <h1 class="card-title" style="word-wrap: normal">About</h1>
+            <h1 class="card-title" style="word-wrap: normal">Giới thiệu</h1>
             <p>{{ site.author_bio }}</p>
         </div>
         <br />
 
-        <h3 style="padding: 5px; word-wrap: normal; margin-left: 20px; margin-right: 20px;">Project Highlights</h3>
+        <!-- <h3 style="padding: 5px; word-wrap: normal; margin-left: 20px; margin-right: 20px;">Dự án nổi bật</h3> -->
 
         {% for project in site.author_project_details %} {% if project.visibility
         == true %}
@@ -316,7 +316,7 @@ layout: default
 
         {% endif %} {% if site.show_author_work_experiences == true %}
         <div class="card">
-            <h1 class="card-title">Work Experience</h1>
+            <h1 class="card-title">Kinh nghiệm</h1>
             <br />
             {% for exp in site.author_work_experiences %} {% if exp.visibility == true
             %}
@@ -339,7 +339,7 @@ layout: default
         </div>
         {% endif %} {% if site.show_author_education_details == true %}
         <div class="card">
-            <h1 class="card-title">Education</h1>
+            <h1 class="card-title">Giáo dục</h1>
             <br />
             {% for detail in site.author_education_details %} {% if detail.visibility
             == true %}

@@ -1,7 +1,7 @@
 ---
-name: Nguyen Quoc Dat
+name: Nguyễn Quốc Đạt
 username: dylan
-bio: "Hi I am Dat, you can also call me Dylan. I'm a 2nd year student majoring in information security."
+bio: "Xin chào, tôi là Đạt, bạn cũng có thể gọi tôi là Dylan. Hiện tại, tôi đang là sinh viên chuyên ngành an toàn thông tin tại PTIT."
 site: https://nguyenquocdat.info
 avatar: dylan.png
 email: nqdat160602@gmail.com
