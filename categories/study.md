@@ -4,7 +4,7 @@ title: Học tập
 permalink: /blog/categories/study/
 ---
 
-<h5> Other Study blogs: </h5>
+<h5> Blogs học tập: </h5>
 
 <div class="row">
 	{% for post in site.categories.study %}

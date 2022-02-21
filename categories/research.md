@@ -4,7 +4,7 @@ title: Nghiên cứu
 permalink: /blog/categories/research/
 ---
 
-<h5> Other Research blogs: </h5>
+<h5> Blogs nghiên cứu khác: </h5>
 
 <div class="row">
 	{% for post in site.categories.research %}

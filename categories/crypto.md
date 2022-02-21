@@ -4,7 +4,7 @@ title: Crypto
 permalink: /blog/categories/crypto/
 ---
 
-<h5> Other Crypto Blogs: </h5>
+<h5> Blogs liên quan Crypto: </h5>
 
 <div class="row">
 	{% for post in site.categories.crypto %}

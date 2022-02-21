@@ -4,7 +4,7 @@ title: Khác
 permalink: /blog/categories/misc/
 ---
 
-<h5> Other Misc blogs: </h5>
+<h5> Blogs khác: </h5>
 
 <div class="row">
 	{% for post in site.categories.misc %}
