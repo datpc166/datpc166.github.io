@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Personal
+title: Cá nhân
 permalink: /blog/categories/personal/
 ---
 

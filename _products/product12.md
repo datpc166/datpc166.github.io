@@ -6,4 +6,4 @@ guid: e8ec2a0c-7427-4535-b6af-80f7866b41b7
 image: "/assets/img/products/product12.jpg"
 ---
 
-This White Hat Hacking v10 course is valuable for new IT professionals with at least a year of experience with pen testing as well as experienced security professionals looking to validate their security skills.
+Khóa học White Hat Hacking v10 này có giá trị dành cho các chuyên gia CNTT mới có ít nhất một năm kinh nghiệm với pentesting cũng như các chuyên gia bảo mật có kinh nghiệm muốn xác thực kỹ năng bảo mật của họ

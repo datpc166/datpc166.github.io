@@ -10,13 +10,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 urls:
     - text: Trang chủ
       url: /
-    - text: Về tôi
+    - text: Giới thiệu
       url: /about
     - text: Blogs
       url: /blog
     - text: Bộ sưu tập
       url: /gallery
-    - text: Shop
+    - text: Cửa hàng
       url: /shop
     - text: Portfolio
       url: /portfolio
@@ -43,7 +43,7 @@ author_work_experiences:
             - company_name: Bug Bounty Program
               company_logo: bug-bounty.svg
               company_url: http://nguyenquocdat.info/
-              work_duration: Dec 2021 - Present
+              work_duration: 12/2021 - Present
               designation: Freelance
               description: Ngoài những thời gian học trên trường, tôi tìm hiểu về Bug Bounty và đã học hỏi rất nhiều từ đó. Nó rất thú vị!
               visibility: true
@@ -53,7 +53,7 @@ author_education_details:
               - college_logo: ptit.png
                 college_name: PTIT - Học Viện Công Nghệ Bưu Chính Viễn Thông
                 college_url: https://portal.ptit.edu.vn/
-                study_duration: 10/2020 - Present
+                study_duration: Oct 2020 - Present
                 college_degree: Bachelor of Technology
                 description: chuyên ngành An Toàn Thông Tin
                 college_url: https://portal.ptit.edu.vn/
@@ -61,7 +61,7 @@ author_education_details:
               - college_logo: thpt.png
                 college_name: THPT Thường Tín
                 college_url: https://www.facebook.com/Thuongtintrongtoi/
-                study_duration: 8/2017 - 8/2020
+                study_duration: Aug 2017 - Aug 2020
                 college_degree: Tốt nghiệp Trung học phổ thông
                 college_url: https://www.facebook.com/Thuongtintrongtoi/
                 visibility: true

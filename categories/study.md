@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Study
+title: Học tập
 permalink: /blog/categories/study/
 ---
 

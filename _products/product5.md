@@ -1,8 +1,8 @@
 ---
 identifier: lap-trinh-fullstack-angular-php-mysql
-name: Lap Trinh FULLSTACK voi Angular - PHP - MYSQL
+name: Lập Trình Fullstack với Angular, PHP, Mysql
 price: 2
 guid: a8138dc2-ea3b-4de2-b932-a8d6bb9768d3
 image: /assets/img/products/product5.jpg
 ---
-Guide students to learn and do Fullstack Programming with Angular JS language in a methodical, simple and immediately applicable way. Have a platform to approach and keep up with the latest Angular JS trends
+Hướng dẫn học viên học và làm Lập trình Fullstack với ngôn ngữ Angular JS một cách bài bản, đơn giản và áp dụng được ngay. Có nền tảng để tiếp cận và cập nhật các xu hướng Angular JS mới nhất

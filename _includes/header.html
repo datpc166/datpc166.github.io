@@ -11,11 +11,19 @@
     <a class="navbar-brand" href="/">{{site.title}}</a>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-            {% for i in site.urls %}
+            <!-- {% for i in site.urls %}
             <li-n class="nav-item">
-                <a class="nav-link" href="{{ site.url}}{{site.baseurl}}{{ i.url }}" style="min-width: max-content">{{ i.text }}</a>
+                <a translate="no" class="nav-link" href="{{ site.url}}{{site.baseurl}}{{ i.url }}" style="min-width: max-content">{{ i.text }}</a>
             </li-n>
-            {% endfor %}
+            {% endfor %} -->
+            
+            <li-n class="nav-item"><a class="nav-link" href="{{ site.url}}{{site.baseurl}}/" style="min-width: max-content">Trang chủ</a></li-n>
+            <li-n class="nav-item"><a class="nav-link" href="{{ site.url}}{{site.baseurl}}/about" style="min-width: max-content" translate="no">About</a></li-n>
+            <li-n class="nav-item"><a class="nav-link" href="{{ site.url}}{{site.baseurl}}/blog" style="min-width: max-content">Blogs</a></li-n>
+            <li-n class="nav-item"><a class="nav-link" href="{{ site.url}}{{site.baseurl}}/gallery" style="min-width: max-content">Bộ sưu tập</a></li-n>
+            <li-n class="nav-item"><a class="nav-link" href="{{ site.url}}{{site.baseurl}}/shop" style="min-width: max-content">Shop</a></li-n>
+            <li-n class="nav-item"><a class="nav-link" href="{{ site.url}}{{site.baseurl}}/portfolio" style="min-width: max-content" translate="no">Portfolio</a></li-n>
+            <li-n class="nav-item"><a class="nav-link" href="{{ site.url}}{{site.baseurl}}/contact" style="min-width: max-content">Liên hệ</a></li-n>
             
         </ul>
     </div>

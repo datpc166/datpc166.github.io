@@ -6,4 +6,4 @@ guid: 718553b8-9919-47b4-af23-8fbd1570cdcd
 image: "/assets/img/products/product11.jpg"
 ---
 
-The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!
+Khóa học JavaScript hiện đại dành cho tất cả mọi người! Làm chủ JavaScript với các dự án, thử thách và lý thuyết. Nhiều khóa học trong một!

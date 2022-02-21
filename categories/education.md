@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Education
+title: Giáo dục
 permalink: /blog/categories/education/
 ---
 

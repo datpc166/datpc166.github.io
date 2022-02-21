@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research
+title: Nghiên cứu
 permalink: /blog/categories/research/
 ---
 

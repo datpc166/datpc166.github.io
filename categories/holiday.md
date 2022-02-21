@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Holiday
+title: Ngày lễ
 permalink: /blog/categories/holiday/
 ---
 
-<h5> Other Holiday blogs: </h5>
+<h5> Các Blogs về ngày lễ: </h5>
 
 <div class="row">
 	{% for post in site.categories.holiday %}

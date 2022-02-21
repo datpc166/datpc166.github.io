@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Programming
+title: Lập trình
 permalink: /blog/categories/programming/
 ---
 

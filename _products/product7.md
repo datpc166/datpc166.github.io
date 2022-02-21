@@ -6,4 +6,4 @@ guid: d14dfebd-254e-47b2-9d3c-f6f32a63debc
 image: "/assets/img/products/product7.jpg"
 ---
 
-Become Ethical Hacker by building your own payloads with Python and JavaScript. (Real World Attacks Included)
+Trở thành Hacker có đạo đức bằng cách xây dựng tải trọng của riêng bạn với Python và JavaScript. (Bao gồm các cuộc tấn công trong thế giới thực)
