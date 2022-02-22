@@ -4,11 +4,11 @@ layout: post
 summary: Giới thiệu thuật toán sắp xếp, tìm kiếm
 author: dylan
 color: "background-color: firebrick"
-date: '2022-02-22 09:52:20'
+date: '2022-02-22 14:35:23 +0530'
 category: ['study','algorithms']
 type: "Blog học thuật"
-keywords: sorting, searching, algorithms
 thumbnail: "/assets/img/posts/2022-02-22-what-are-sorting-searching/thumbnail.jpg"
+keywords: sorting, searching, algorithms
 usemathjax: true
 permalink: "/blog/what-are-sorting-and-searching-algorithms/"
 ---
