@@ -13,8 +13,10 @@ permalink: "/blog/welcome-to-my-blog/"
 usemathjax: true
 ---
 
-Xin chào các bạn, mình là Nguyễn Quốc Đạt, Eng Name của mình là Dylan. Hiện mình đang sinh sống và học tập tại Hà Nội, sinh viên năm 2 chuyên ngành an toàn thông tin tại PTIT.
+Hii, mình tên là Nguyễn Quốc Đạt, Eng Name của mình là Dylan. Hiện mình đang sinh sống và học tập tại Hà Nội,là một sinh viên chuyên ngành an toàn thông tin tại PTIT.
 
-Sau một khoảng thời gian bận rộn việc học,giờ mình mới có thời gian quay trở lại viết blog, trong tương lai mình sẽ viết blog về kiến thức lập trình và đầu tư crypto trên website này từ những thứ mình đã học hỏi và tìm hiểu được.
+Sau một khoảng thời gian vật lộn với đống deadline trên trường,giờ mình mới có thời gian để quay lại với đam mê của mình đó là viết blog. Trong tương lai mình sẽ dành thời gian nhiều thời gian hơn để chia sẻ những kiến thức lập trình và đầu tư (bật mí là mình cũng rất thích đầu tư chứng khoán và crypto mặc dù cũng đã "ngã đau" rất nhiều lần ><)
 
-Hy vọng mọi người có thể giúp đỡ và ủng hộ những dự án sắp tới của mình. Cảm ơn rất nhiều!!
+Ngoài ra, mình còn chia sẻ những khoá học lập trình, thiết kế, kỹ năng mềm,... trên các trang web học trực tuyến tại [đây](/shop) với giá rất rẻ hoặc free 100% cho những bạn chưa có điều kiện mua các khoá học gốc chi phí rất đắt đỏ.
+
+Hy vọng mọi người giúp đỡ và ủng hộ những dự án sắp tới của mình. Cảm ơn rất nhiều!!
