@@ -11,7 +11,6 @@ keywords: sorting, searching, algorithms
 thumbnail: "/assets/img/posts/2022-02-22-what-are-sorting-searching/thumbnail.jpg"
 usemathjax: true
 permalink: "/blog/what-are-sorting-and-searching-algorithms/"
-published: true
 ---
 
 Hi mọi người, mình Đạt đây. Bài viết này là bài viết mở đầu các thuật toán sắp xếp và tìm kiếm trong series [Cấu Trúc Dữ Liệu và Giải Thuật](/blog/categories/algorithms/). Chúng ta cùng bắt đầu tìm hiểu nhé!
