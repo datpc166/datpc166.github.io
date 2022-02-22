@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Học thuật
-permalink: /blog/categories/study/
+title: Thuật toán
+permalink: /blog/categories/algorithms/
 ---
 
-<h5> Blogs học thuật: </h5>
+<h5> Blogs liên quan đến Thuật toán: </h5>
 
 <div class="row">
-	{% for post in site.categories.study %}
+	{% for post in site.categories.algorithms %}
         <div class="card blog-post" style="border-radius: 50px">
             <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" style="padding: 0px">
                 <img class="card-img-top" src="{{site.url}}{{site.baseurl}}{{ post.thumbnail }}" alt="{{ post.title }}" style="border-radius: 30px">
