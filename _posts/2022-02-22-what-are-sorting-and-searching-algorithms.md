@@ -7,7 +7,7 @@ color: "background-color: firebrick"
 date: '2022-02-22 14:35:23 +0530'
 category: ['study','algorithms']
 type: "Blog học thuật"
-thumbnail: "/assets/img/posts/2022-02-22-what-are-sorting-searching/thumbnail.jpg"
+thumbnail: "/assets/img/posts/2022-02-22-what-are-sorting-searching/thumbnail.png"
 keywords: sorting, searching, algorithms
 usemathjax: true
 permalink: "/blog/what-are-sorting-and-searching-algorithms/"
