@@ -5,7 +5,7 @@ summary: Giới thiệu thuật toán sắp xếp, tìm kiếm
 author: dylan
 color: "background-color: firebrick"
 date: '2022-02-22 09:52:20'
-category: ["study","algorithms",]
+category: ['study','algorithms']
 type: "Blog học thuật"
 keywords: sorting, searching, algorithms
 thumbnail: "/assets/img/posts/2022-02-22-what-are-sorting-searching/thumbnail.jpg"
