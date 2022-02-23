@@ -1,7 +1,7 @@
 ---
 title: Sắp xếp chọn - Selection Sort
 layout: post
-summary: Thuật toán sắp xếp chọn
+summary: Thuật toán sắp xếp chọn là thuật toán dựa trên việc so sánh tại chỗ, sắp xếp bằng cách liên tục tìm phần tử nhỏ nhất (giả sử sắp xếp tăng dần) từ phần chưa được sắp xếp và đẩy chúng lên đầu.
 author: dylan
 color: "background-color: firebrick"
 date: '2022-02-23 20:35:23 +07:00'
@@ -175,7 +175,8 @@ Vì vậy, độ phức tạp của thuật toán Selection Sort là $ O(n^2) $ 
 {% include video-responsive.html link='https://www.youtube.com/embed/xWBP4lzkoyM' %}
 <figcaption style="text-align: center; padding: 10px"><i>Nguồn tham khảo Geeksforgeeks</i></figcaption>
 <br/>
-Xonggg, chúng ta đã nạp thêm kiến thức về Selection Sort rồi, có dễ hiểu không nào? Để lại bình luận phía dưới để mình rút kinh nghiệm và tiếp thu cho các bài viết tiếp theo nhé! bái bai...
+
+Nếu có bất kỳ thắc mắc nào, hãy để bình luận phía dưới để cùng nhau trao đổi nhé.
 
 
 

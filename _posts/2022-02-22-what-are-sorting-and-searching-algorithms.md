@@ -4,7 +4,7 @@ layout: post
 summary: Giới thiệu thuật toán sắp xếp, tìm kiếm
 author: dylan
 color: "background-color: firebrick"
-date: '2022-02-22 14:35:23 +0530'
+date: '2022-02-22 14:35:23 +07:00'
 category: ['study','algorithms']
 type: "Blog học thuật"
 thumbnail: "/assets/img/posts/2022-02-22-what-are-sorting-searching/thumbnail.png"
