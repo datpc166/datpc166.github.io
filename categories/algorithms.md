@@ -4,7 +4,7 @@ title: Thuật toán
 permalink: /blog/categories/algorithms/
 ---
 
-<h5> Blogs liên quan đến Thuật toán: </h5>
+<h5> Thuật toán: </h5>
 
 <div class="row">
 	{% for post in site.categories.algorithms %}

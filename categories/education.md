@@ -4,7 +4,7 @@ title: Giáo dục
 permalink: /blog/categories/education/
 ---
 
-<h5> Blogs liên quan đến Giáo dục: </h5>
+<h5> Giáo dục: </h5>
 
 <div class="row">
 	{% for post in site.categories.education %}

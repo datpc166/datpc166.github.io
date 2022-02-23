@@ -4,7 +4,7 @@ title: Lập trình
 permalink: /blog/categories/programming/
 ---
 
-<h5> Blogs liên quan Lập trình: </h5>
+<h5> Blogs Lập trình: </h5>
 
 <div class="row">
 	{% for post in site.categories.programming %}

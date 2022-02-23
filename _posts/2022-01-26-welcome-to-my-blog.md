@@ -7,7 +7,7 @@ color: "background-color: firebrick"
 date: '2022-01-26 14:35:23 +0530'
 category: ['personal']
 type: "Blog cá nhân"
-thumbnail: "/assets/img/posts/WelcomeToMyBlog/welcome.png"
+thumbnail: "/assets/img/posts/2022-01-26-welcome-to-my-blog/welcome.png"
 keywords: Dylan, Nguyen Quoc Dat, blog, website
 permalink: "/blog/welcome-to-my-blog/"
 usemathjax: true

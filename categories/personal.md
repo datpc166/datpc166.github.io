@@ -4,7 +4,7 @@ title: Cá nhân
 permalink: /blog/categories/personal/
 ---
 
-<h5> Blogs cá nhân khác: </h5>
+<h5> Blogs cá nhân: </h5>
 
 <div class="row">
 	{% for post in site.categories.personal %}

@@ -16,7 +16,7 @@ permalink: "/blog/what-are-sorting-and-searching-algorithms/"
 Hi mọi người, mình Đạt đây. Bài viết này là bài viết mở đầu các thuật toán sắp xếp và tìm kiếm trong series [Cấu Trúc Dữ Liệu và Giải Thuật](/blog/categories/algorithms/). Chúng ta cùng bắt đầu tìm hiểu nhé!
 
 ## **Sắp xếp và tìm kiếm là gì?**
-Sắp xếp , tìm kiếm ? Ngay cái tên đã nói lên tất cả phải không nào. Hai thuật ngữ này không xa lạ gì với chúng ta, hơn nữa chúng còn được nhắc đến và sử dụng rất nhiều trong cuộc sống đó! Nhớ hồi xưa chúng ta còn học lớp 1, cô giáo dạy chúng ta so sánh rồi sắp xếp một dãy số tăng dần hoặc giảm dần, tìm số lớn nhất, nhỏ nhất ... đó cũng là những bài toán sắp xếp, tìm kiếm nhưng ở khía cạnh khác.
+Sắp xếp , tìm kiếm ? Ngay cái tên đã nói lên tất cả phải không nào. Hai thuật ngữ này không xa lạ gì với chúng ta, hơn nữa chúng còn được nhắc đến và sử dụng rất nhiều trong cuộc sống đó! Nhớ hồi xưa chúng ta còn học lớp 1, cô giáo dạy chúng ta so sánh rồi sắp xếp một dãy số tăng dần hoặc giảm dần, tìm số lớn nhất, nhỏ nhất ... đó cũng là những bài toán sắp xếp, tìm kiếm nhưng ở mức độ cơ bản.
 
 Giờ chúng ta bắt đầu đi vào chi tiết khái niệm sắp xếp, tìm kiếm nhé.
 

@@ -4,7 +4,7 @@ title: Ngày lễ
 permalink: /blog/categories/holiday/
 ---
 
-<h5> Blog liên quan Ngày lễ: </h5>
+<h5> Ngày lễ: </h5>
 
 <div class="row">
 	{% for post in site.categories.holiday %}
