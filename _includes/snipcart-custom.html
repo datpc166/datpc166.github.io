@@ -1,20 +1,12 @@
-<div hidden id="snipcart" data-api-key="Y2E5ZDMzZWEtYjUyOC00NGVmLTgxMjctNWE0ZmVjZTU5YmEzNjM3ODAyNjkxMjAyNDI1MTA0">
-    <address-fields>
+<address-fields section="top">
     <div>
-      <fieldset class="snipcart-form__set">
-        <div class="snipcart-form__field">
-          <snipcart-label
-            class="snipcart__font--tiny"
-            for="country"
-          > Quốc Gia
+        <snipcart-label for="phone">
+            Số điện thoại
         </snipcart-label>
-          <snipcart-typeahead type="dropdown" name="country" autocomplete="country"></snipcart-typeahead>
-        </div>
-
-      </fieldset>
+        <snipcart-input name="phone">
+        </snipcart-input>
     </div>
-  </address-fields>
-
+</address-fields>
 
 <billing section="bottom">
     <fieldset class="snipcart-form__set">
@@ -22,11 +14,18 @@
             <div class="snipcart-form__field-checkbox">
                 <snipcart-checkbox name="subscribeToNewsletter"></snipcart-checkbox>
                 <snipcart-label for="subscribeToNewsletter" class="snipcart__font--tiny snipcart-form__label--checkbox">
-                    Đăng kí bản tin miễn phí
+                    Subscribe to newsletter
                 </snipcart-label>
             </div>
         </div>
     </fieldset>
 </billing>
 
-</div>
+<payment section="top">
+    <div>
+        <p>
+            <snipcart-checkbox name="privacy-policy" required></snipcart-checkbox>
+            <snipcart-label for="privacy-policy">I have read and agree to the&nbsp;<a href="#">Privacy Policy</a></snipcart-label>
+        </p>
+    </div>
+</payment>

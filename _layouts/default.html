@@ -28,7 +28,9 @@ layout: compress
 <!-- <div hidden id="snipcart" data-api-key="Y2I1NTAyNWYtMTNkMy00ODg0LWE4NDItNTZhYzUxNzJkZTI5NjM3MDI4NTUzNzYyMjQ4NzU0"></div>
 <script src="https://cdn.snipcart.com/themes/v3.0.0-beta.3/default/snipcart.js" defer></script> -->
 <script async src="https://cdn.snipcart.com/themes/v3.3.1/default/snipcart.js"></script>
-<div id="snipcart" data-api-key="Y2E5ZDMzZWEtYjUyOC00NGVmLTgxMjctNWE0ZmVjZTU5YmEzNjM3ODAyNjkxMjAyNDI1MTA0" hidden></div>
+<div id="snipcart" data-api-key="Y2E5ZDMzZWEtYjUyOC00NGVmLTgxMjctNWE0ZmVjZTU5YmEzNjM3ODAyNjkxMjAyNDI1MTA0" hidden>
+  {%- include snipcart-custom.html -%}
+</div>
    <script src="{{site.url}}{{site.baseurl}}/assets/js/mode-switcher.js"></script>
    <script>
     if (window.netlifyIdentity) {
@@ -51,7 +53,6 @@ layout: compress
     });
     
   </script>
-  {%- include snipcart-custom.html -%}
 </body>
 
 
