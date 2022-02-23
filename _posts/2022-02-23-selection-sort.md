@@ -4,7 +4,7 @@ layout: post
 summary: Thuật toán sắp xếp chọn
 author: dylan
 color: "background-color: firebrick"
-date: '2022-02-23 20:35:23 +0530'
+date: '2022-02-23 20:35:23 +07:00'
 category: ['study','algorithms']
 type: "Blog học thuật"
 thumbnail: "/assets/img/posts/2022-02-23-selection-sort/thumbnail.png"
