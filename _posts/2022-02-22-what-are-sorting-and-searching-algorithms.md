@@ -27,7 +27,7 @@ Trong khoa học máy tính và trong toán học, thuật toán sắp xếp là
 
 Các thuật toán sắp xếp **cơ bản**:
 
-- [Sắp xếp chọn (Selection Sort)](#)
+- [Sắp xếp chọn (Selection Sort)](/blog/selection-sort)
 - [Sắp xếp nổi bọt (Bubble Sort)](#)
 - [Sắp xếp đổi chỗ trực tiếp (Interchange Sort)](#)
 - [Sắp xếp chèn (Insertion Sort)](#)
