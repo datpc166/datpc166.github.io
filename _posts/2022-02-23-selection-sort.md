@@ -167,7 +167,7 @@ Theo Cấp Số Cộng:
 
 $$ \sum_{i=1}^{n-1} i = \frac{(n-1) + 1}{2}(n-1) = \frac{1}{2}n(n - 1) = \frac{1}{2}(n^2 - n) $$
 
-Vì vậy, độ phức tạp của thuật toán Selection Sort là $ O(n^2) $ về số lượng phép so sánh. Mỗi lần duyệt yêu cầu hoán đổi cho `n - 1` phần tử (phần tử cuối đã đứng đúng chỗ mà nó thuộc về). 
+Vì vậy, độ phức tạp của thuật toán Selection Sort là $$O(n^2)$$ về số lượng phép so sánh. Mỗi lần duyệt yêu cầu hoán đổi cho `n - 1` phần tử (phần tử cuối đã đứng đúng chỗ mà nó thuộc về). 
 
 ## **Bonus**
  _Xem thêm video minh hoạ cho ngấm nha các bạn:D_
