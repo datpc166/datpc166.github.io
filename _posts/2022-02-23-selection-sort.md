@@ -13,7 +13,7 @@ usemathjax: true
 permalink: "/blog/selection-sort/"
 ---
 
-Hôm nay chúng ta sẽ nghiên cứu về **Selection Sort Algorithm**. Đây là thuật toán đầu tiên trong series [Cấu trúc dữ liệu và Giải thuật](/blog/categories/algorithms/), nó thuộc trong các thuật toán sắp xếp và tìm kiếm. Bài viết này sẽ giúp các bạn hiểu được giải thuật và cách triển khai code như thế nào nhé :D
+Hôm nay chúng ta sẽ nghiên cứu về **Selection Sort Algorithm**. Đây là thuật toán đầu tiên trong chuyên đề [Các thuật toán sắp xếp và tìm kiếm](#), series [Cấu trúc dữ liệu và Giải thuật](/blog/categories/algorithms/), nó thuộc trong các thuật toán sắp xếp và tìm kiếm. Bài viết này sẽ giúp các bạn hiểu được giải thuật và cách triển khai code như thế nào nhé :D
 
 # **Nội dung bài viết:**
 1. [Sắp xếp chọn là gì?](#sắp-xếp-chọn-là-gì)

@@ -13,4 +13,3 @@ document.addEventListener('scroll', _ => {
     progressBar.style.setProperty('--progress', '0%');
   }
 });
-
