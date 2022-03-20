@@ -17,7 +17,7 @@ urls:
     - text: Portfolio
       url: /portfolio
     - text: Liên hệ
-      url: /contact
+      url: /wip
     # - text: CV
     #   url : /cv
 
