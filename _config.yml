@@ -14,10 +14,6 @@ urls:
       url: /about
     - text: Blogs
       url: /blog
-    - text: Bộ sưu tập
-      url: /gallery
-    - text: Cửa hàng
-      url: /shop
     - text: Portfolio
       url: /portfolio
     - text: Liên hệ
